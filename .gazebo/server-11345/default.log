@@ -1,0 +1,74 @@
+Gazebo multi-robot simulator, version 7.9.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1528747714 608265839) [Msg] Waiting for master.
+(1528747714 610447616) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1528747714 610603062) [Msg] Publicized address: 172.17.0.2
+(1528747716 983508860) Init world[default]
+(1528747723 612402895) applying Gaussian noise model with mean 0, stddev 1.96e-06, bias -0
+(1528747723 612515737) applying Gaussian noise model with mean 0, stddev 1.96e-06, bias -0
+(1528747723 612567333) applying Gaussian noise model with mean 0, stddev 1.96e-06, bias 0
+(1528747723 612647070) Applying angular velocity noise to IMU[imu].
+  X: Gaussian noise, mean[0], stdDev[1.96e-06] bias[-0] precision[0] quantized[0]
+  Y: Gaussian noise, mean[0], stdDev[1.96e-06] bias[-0] precision[0] quantized[0]
+  Z: Gaussian noise, mean[0], stdDev[1.96e-06] bias[0] precision[0] quantized[0]
+(1528747723 612694868) applying Gaussian noise model with mean 0, stddev 0.017, bias -0.100192
+(1528747723 613291083) applying Gaussian noise model with mean 0, stddev 0.017, bias -0.100943
+(1528747723 613434678) applying Gaussian noise model with mean 0, stddev 0.017, bias 0.10062
+(1528747723 613479879) Applying linear acceleration noise to IMU[imu].
+  X: Gaussian noise, mean[0], stdDev[0.017] bias[-0.100192] precision[0] quantized[0]
+  Y: Gaussian noise, mean[0], stdDev[0.017] bias[-0.100943] precision[0] quantized[0]
+  Z: Gaussian noise, mean[0], stdDev[0.017] bias[0.10062] precision[0] quantized[0]
+(1528747723 641276333) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747723 641513174) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747723 743086856) [Dbg] [gazebo_ros_kobuki.cpp:57] Plugin model name: mobile_base
+(1528747724 213987005) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747724 214147926) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747724 215810128) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747724 215931998) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747767 645273189) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747767 645486998) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747767 650504859) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747767 650746320) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747777 178386276) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747777 179133081) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747777 192445691) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747777 194012974) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747781 804243269) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747781 804368317) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747781 810138419) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747781 810584691) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747782 222665912) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747782 223073936) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747782 230499619) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747782 230644930) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747789 264276926) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747789 264452024) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747789 266577314) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747789 266748306) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747794 413418219) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747794 413723648) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747794 416278082) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747794 416641691) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747801 651729609) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747801 651914231) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747801 864431210) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747801 864713807) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747813 841281737) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747813 841546413) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747813 854005568) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747813 854216570) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747826 124227058) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747826 124400551) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747826 131220737) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747826 131420605) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747829 42317311) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747829 44017800) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528747829 52988082) [Wrn] [msgs.cc:1808] Conversion of sensor type[depth] not suppported.
+(1528747829 53173906) [Wrn] [msgs.cc:1808] Conversion of sensor type[imu] not suppported.
+(1528750065 542664179) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/local/info, deleting message. This warning is printed only once.
+(1528750065 644004662) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/info, deleting message. This warning is printed only once.
+(1528750065 947018827) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/physics/contacts, deleting message. This warning is printed only once.

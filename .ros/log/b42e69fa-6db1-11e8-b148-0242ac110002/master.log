@@ -1,0 +1,609 @@
+[rosmaster.main][INFO] 2018-06-11 19:57:45,234: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2018-06-11 19:57:45,235: Starting ROS Master Node
+[xmlrpc][INFO] 2018-06-11 19:57:45,236: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2018-06-11 19:57:45,237: Started XML-RPC server [http://0d53e7b9f3a1:11311/]
+[xmlrpc][INFO] 2018-06-11 19:57:45,237: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2018-06-11 19:57:45,237: Master initialized: port[11311], uri[http://0d53e7b9f3a1:11311/]
+[rosmaster.master][INFO] 2018-06-11 19:57:45,353: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,357: +PARAM [/roslaunch/uris/host_0d53e7b9f3a1__42913] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,954: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,954: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,955: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,955: +PARAM [/robot_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,955: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,955: +PARAM [/depthimage_to_laserscan/output_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,956: +PARAM [/depthimage_to_laserscan/scan_height] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,956: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,956: +PARAM [/depthimage_to_laserscan/range_min] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:45,956: +PARAM [/bumper2pointcloud/pointcloud_radius] by /roslaunch
+[rosmaster.master][INFO] 2018-06-11 19:57:46,051: +SERVICE [/rosout/get_loggers] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 19:57:46,052: +SERVICE [/rosout/set_logger_level] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 19:57:46,058: +SUB [/clock] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 19:57:46,060: +PUB [/rosout_agg] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 19:57:46,066: +SUB [/rosout] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,250: +PUB [/rosout] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,253: +SERVICE [/gazebo/get_loggers] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,260: +SERVICE [/gazebo/set_logger_level] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,271: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:57:48,274: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:48,329: +SUB [/clock] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,739: +PUB [/rosout] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,760: +SERVICE [/mobile_base_nodelet_manager/get_loggers] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,777: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/']
+[rosmaster.master][INFO] 2018-06-11 19:57:48,779: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:48,780: +SERVICE [/mobile_base_nodelet_manager/set_logger_level] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,859: +SUB [/clock] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,877: +SERVICE [/mobile_base_nodelet_manager/load_nodelet] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,882: +SERVICE [/mobile_base_nodelet_manager/unload_nodelet] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:48,884: +SERVICE [/mobile_base_nodelet_manager/list] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,290: +PUB [/rosout] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,301: +SERVICE [/cmd_vel_mux/get_loggers] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,312: +SERVICE [/cmd_vel_mux/set_logger_level] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,381: +SUB [/clock] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,385: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/']
+[rosmaster.master][INFO] 2018-06-11 19:57:49,387: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:49,401: +PARAM [/cmd_vel_mux] by /cmd_vel_mux
+[rosmaster.master][INFO] 2018-06-11 19:57:49,446: +SERVICE [/cmd_vel_mux/set_parameters] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,454: +PUB [/cmd_vel_mux/parameter_descriptions] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,463: +PUB [/cmd_vel_mux/parameter_updates] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,491: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:49,501: +PARAM [/cmd_vel_mux/yaml_cfg_data] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:49,516: +PUB [/mobile_base/commands/velocity] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,570: +SUB [/cmd_vel_mux/input/safety_controller] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,634: +SUB [/cmd_vel_mux/input/teleop] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,716: +SUB [/cmd_vel_mux/input/switch] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,784: +SUB [/cmd_vel_mux/input/navi] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,800: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:49,824: +PARAM [/cmd_vel_mux/yaml_cfg_data] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:49,837: +PUB [/cmd_vel_mux/active] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,854: +PUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,984: +SUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:49,998: +PUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,062: +SUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,075: +PUB [/rosout] /spawn_turtlebot_model http://0d53e7b9f3a1:42541/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,083: +PUB [/clock] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,086: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,087: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,088: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,090: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,090: publisherUpdate[/clock] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,091: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,092: publisherUpdate[/clock] -> http://0d53e7b9f3a1:34473/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,093: publisherUpdate[/clock] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,093: publisherUpdate[/clock] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,094: publisherUpdate[/clock] -> http://0d53e7b9f3a1:34473/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,094: publisherUpdate[/clock] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,095: publisherUpdate[/clock] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,096: publisherUpdate[/clock] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,096: +SUB [/clock] /spawn_turtlebot_model http://0d53e7b9f3a1:42541/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,099: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,102: +SERVICE [/spawn_turtlebot_model/get_loggers] /spawn_turtlebot_model http://0d53e7b9f3a1:42541/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,104: +SERVICE [/gazebo/delete_model] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,106: +SERVICE [/spawn_turtlebot_model/set_logger_level] /spawn_turtlebot_model http://0d53e7b9f3a1:42541/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,110: +SERVICE [/gazebo/delete_light] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,119: +SERVICE [/gazebo/get_model_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,123: +SERVICE [/gazebo/get_model_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,127: +SERVICE [/gazebo/get_world_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,137: +SERVICE [/gazebo/get_joint_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,142: +SERVICE [/gazebo/get_link_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,144: +SERVICE [/gazebo/get_link_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,146: +SERVICE [/gazebo/get_light_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,148: +SERVICE [/gazebo/set_light_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,149: +SERVICE [/gazebo/get_physics_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,150: +PUB [/gazebo/link_states] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,151: +PUB [/gazebo/model_states] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,153: +SERVICE [/gazebo/set_link_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,155: +SERVICE [/gazebo/set_physics_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,156: +SERVICE [/gazebo/set_model_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,158: +SERVICE [/gazebo/set_model_configuration] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,160: +SERVICE [/gazebo/set_joint_properties] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,163: +SERVICE [/gazebo/set_link_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,177: +SUB [/gazebo/set_link_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,185: +SUB [/gazebo/set_model_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,187: +SERVICE [/gazebo/pause_physics] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,190: +SERVICE [/gazebo/unpause_physics] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,193: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,195: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,197: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,198: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,200: +SERVICE [/gazebo/reset_simulation] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,215: +SERVICE [/gazebo/reset_world] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,315: +PUB [/rosout] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,319: +SERVICE [/bumper2pointcloud/get_loggers] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,322: +SERVICE [/bumper2pointcloud/set_logger_level] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,336: +SUB [/clock] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,342: +PARAM [/bumper2pointcloud] by /bumper2pointcloud
+[rosmaster.master][INFO] 2018-06-11 19:57:50,361: +PUB [/mobile_base/sensors/bumper_pointcloud] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,368: +SUB [/mobile_base/sensors/core] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,397: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,401: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,502: +PUB [/mobile_base_nodelet_manager/bond] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,515: +SUB [/mobile_base_nodelet_manager/bond] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 19:57:50,599: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,599: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']
+[rosmaster.master][INFO] 2018-06-11 19:57:50,601: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:50,602: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:51,057: +PUB [/rosout] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,064: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,070: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,104: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/']
+[rosmaster.master][INFO] 2018-06-11 19:57:51,107: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:51,113: +SUB [/clock] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,143: +PUB [/tf] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,151: +PUB [/tf_static] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,245: +SUB [/joint_states] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,666: +PUB [/rosout] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,668: +SERVICE [/laserscan_nodelet_manager/get_loggers] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,669: +SERVICE [/laserscan_nodelet_manager/set_logger_level] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,677: +SUB [/clock] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,681: +SERVICE [/laserscan_nodelet_manager/load_nodelet] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,682: +SERVICE [/laserscan_nodelet_manager/unload_nodelet] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,683: +SERVICE [/laserscan_nodelet_manager/list] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:51,706: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/']
+[rosmaster.master][INFO] 2018-06-11 19:57:51,708: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:52,245: +PUB [/rosout] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,246: +SERVICE [/depthimage_to_laserscan/get_loggers] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,247: +SERVICE [/depthimage_to_laserscan/set_logger_level] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,259: +SUB [/clock] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,267: +PARAM [/depthimage_to_laserscan] by /depthimage_to_laserscan
+[rosmaster.master][INFO] 2018-06-11 19:57:52,309: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/']
+[rosmaster.master][INFO] 2018-06-11 19:57:52,310: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:57:52,398: +SERVICE [/depthimage_to_laserscan/set_parameters] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,400: +PUB [/depthimage_to_laserscan/parameter_descriptions] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,402: +PUB [/depthimage_to_laserscan/parameter_updates] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,412: +PARAM [/depthimage_to_laserscan/scan_height] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,414: +PARAM [/depthimage_to_laserscan/scan_time] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,417: +PARAM [/depthimage_to_laserscan/range_min] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,420: +PARAM [/depthimage_to_laserscan/range_max] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,422: +PARAM [/depthimage_to_laserscan/output_frame_id] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,424: +PARAM [/depthimage_to_laserscan/scan_height] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,426: +PARAM [/depthimage_to_laserscan/scan_time] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,428: +PARAM [/depthimage_to_laserscan/range_min] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,430: +PARAM [/depthimage_to_laserscan/range_max] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,434: +PARAM [/depthimage_to_laserscan/output_frame_id] by /laserscan_nodelet_manager
+[rosmaster.master][INFO] 2018-06-11 19:57:52,436: +PUB [/scan] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,439: +PUB [/laserscan_nodelet_manager/bond] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,451: +SUB [/laserscan_nodelet_manager/bond] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,514: +PUB [/laserscan_nodelet_manager/bond] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,528: +SUB [/laserscan_nodelet_manager/bond] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 19:57:52,611: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:43397/ ['http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/']
+[rosmaster.master][INFO] 2018-06-11 19:57:52,613: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:43397/ ['http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:58:02,086: +PUB [/rosout] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,088: +SERVICE [/rviz_1528747082078444879/get_loggers] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,090: +SERVICE [/rviz_1528747082078444879/set_logger_level] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,109: +SUB [/clock] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,148: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']
+[rosmaster.master][INFO] 2018-06-11 19:58:02,150: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42541/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:58:02,454: +SUB [/tf] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,465: +SUB [/tf_static] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,603: +PUB [/initialpose] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,607: +PUB [/goal] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,616: -PUB [/goal] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,619: -PUB [/initialpose] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,627: +PUB [/initialpose] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,630: +PUB [/goal] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,632: +PUB [/move_base_simple/goal] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,635: -PUB [/goal] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,637: +PUB [/clicked_point] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:58:02,918: +SERVICE [/rviz_1528747082078444879/reload_shaders] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,311: +SERVICE [/camera/set_camera_info] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,333: +SERVICE [/camera/set_parameters] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,336: +PUB [/camera/parameter_descriptions] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,340: +PUB [/camera/parameter_updates] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,346: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,350: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,372: +PUB [/camera/rgb/image_raw] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,390: +PUB [/camera/rgb/camera_info] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,393: +PUB [/camera/depth/points] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,402: +PUB [/camera/depth/image_raw] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,404: +PUB [/camera/depth/camera_info] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,439: -SUB [/clock] /spawn_turtlebot_model http://0d53e7b9f3a1:42541/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,442: -PUB [/rosout] /spawn_turtlebot_model http://0d53e7b9f3a1:42541/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,444: -SERVICE [/spawn_turtlebot_model/get_loggers] /spawn_turtlebot_model rosrpc://0d53e7b9f3a1:44443
+[rosmaster.master][INFO] 2018-06-11 19:59:26,448: -SERVICE [/spawn_turtlebot_model/set_logger_level] /spawn_turtlebot_model rosrpc://0d53e7b9f3a1:44443
+[rosmaster.master][INFO] 2018-06-11 19:59:26,454: +PUB [/tf] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,457: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']
+[rosmaster.master][INFO] 2018-06-11 19:59:26,459: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:59:26,460: publisherUpdate[/tf] -> http://0d53e7b9f3a1:42713/ ['http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:59:26,463: publisherUpdate[/tf] -> http://0d53e7b9f3a1:42713/ ['http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2018-06-11 19:59:26,465: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2018-06-11 19:59:26,476: +PUB [/joint_states] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,479: +PUB [/odom] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,488: +SUB [/mobile_base/commands/motor_power] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,511: +SUB [/mobile_base/commands/reset_odometry] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,512: publisherUpdate[/joint_states] -> http://0d53e7b9f3a1:41907/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 19:59:26,513: publisherUpdate[/joint_states] -> http://0d53e7b9f3a1:41907/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:59:26,521: +SUB [/mobile_base/commands/velocity] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,525: +PUB [/mobile_base/events/cliff] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,529: +PUB [/mobile_base/events/bumper] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,534: +PUB [/mobile_base/sensors/imu_data] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,557: +SERVICE [/gazebo/set_parameters] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,563: +PUB [/gazebo/parameter_descriptions] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,565: +PUB [/gazebo/parameter_updates] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 19:59:26,607: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,609: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,612: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,614: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,616: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,620: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,623: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,625: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,628: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,665: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,705: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,724: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,725: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,728: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,731: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,752: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,757: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,760: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,765: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,771: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,774: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,776: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,777: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,780: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,782: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,784: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,787: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,793: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,796: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:26,798: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2018-06-11 19:59:41,188: +PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:41,199: +SUB [/clock] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:41,202: +SERVICE [/reading_ranges/get_loggers] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:41,212: +SERVICE [/reading_ranges/set_logger_level] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:41,226: +SUB [/scan] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:41,238: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:39903/']
+[rosmaster.master][INFO] 2018-06-11 19:59:41,240: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:39903/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:59:41,317: +SUB [/camera/depth/image_raw] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:59:41,358: +SUB [/camera/depth/camera_info] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:59:44,838: -SUB [/clock] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:44,840: -SUB [/scan] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:44,840: -PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:39903/
+[rosmaster.master][INFO] 2018-06-11 19:59:44,841: -SERVICE [/reading_ranges/set_logger_level] /reading_ranges rosrpc://0d53e7b9f3a1:45777
+[rosmaster.master][INFO] 2018-06-11 19:59:44,841: -SERVICE [/reading_ranges/get_loggers] /reading_ranges rosrpc://0d53e7b9f3a1:45777
+[rosmaster.master][INFO] 2018-06-11 19:59:44,852: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']
+[rosmaster.master][INFO] 2018-06-11 19:59:44,854: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 19:59:44,879: -SUB [/camera/depth/image_raw] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 19:59:44,895: -SUB [/camera/depth/camera_info] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:01:06,639: +SUB [/scan] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 20:01:06,869: +SUB [/camera/depth/image_raw] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:01:06,944: +SUB [/camera/depth/camera_info] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:01:48,453: +SUB [/clicked_point] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 20:02:04,261: +SUB [/camera/depth/points] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 20:02:36,685: +SUB [/mobile_base/sensors/bumper_pointcloud] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 20:02:46,495: -SUB [/mobile_base/sensors/bumper_pointcloud] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 20:02:51,291: -SUB [/clicked_point] /rviz_1528747082078444879 http://0d53e7b9f3a1:42713/
+[rosmaster.master][INFO] 2018-06-11 20:03:14,716: +PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:03:14,733: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:40677/']
+[rosmaster.master][INFO] 2018-06-11 20:03:14,735: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:40677/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:03:14,760: +SUB [/clock] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:03:14,797: +SERVICE [/reading_ranges/get_loggers] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:03:14,807: +SERVICE [/reading_ranges/set_logger_level] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:03:14,870: +SUB [/scan] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:04:26,181: -SUB [/clock] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:04:26,181: -SUB [/scan] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:04:26,182: -PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:40677/
+[rosmaster.master][INFO] 2018-06-11 20:04:26,182: -SERVICE [/reading_ranges/set_logger_level] /reading_ranges rosrpc://0d53e7b9f3a1:40039
+[rosmaster.master][INFO] 2018-06-11 20:04:26,182: -SERVICE [/reading_ranges/get_loggers] /reading_ranges rosrpc://0d53e7b9f3a1:40039
+[rosmaster.master][INFO] 2018-06-11 20:04:26,192: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']
+[rosmaster.master][INFO] 2018-06-11 20:04:26,194: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:04:41,377: +PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:04:41,388: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:40407/']
+[rosmaster.master][INFO] 2018-06-11 20:04:41,391: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:40407/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:04:41,408: +SUB [/clock] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:04:41,443: +SERVICE [/reading_ranges/get_loggers] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:04:41,454: +SERVICE [/reading_ranges/set_logger_level] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:04:41,487: +SUB [/scan] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:06:08,032: -SUB [/clock] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:06:08,032: -SUB [/scan] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:06:08,033: -PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:40407/
+[rosmaster.master][INFO] 2018-06-11 20:06:08,035: -SERVICE [/reading_ranges/set_logger_level] /reading_ranges rosrpc://0d53e7b9f3a1:32827
+[rosmaster.master][INFO] 2018-06-11 20:06:08,035: -SERVICE [/reading_ranges/get_loggers] /reading_ranges rosrpc://0d53e7b9f3a1:32827
+[rosmaster.master][INFO] 2018-06-11 20:06:08,056: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']
+[rosmaster.master][INFO] 2018-06-11 20:06:08,058: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:06:50,900: +PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:06:50,914: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:06:50,916: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:41907/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:06:50,947: +SUB [/clock] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:06:50,970: +SERVICE [/reading_ranges/get_loggers] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:06:50,989: +SERVICE [/reading_ranges/set_logger_level] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:06:51,010: +SUB [/scan] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,570: -PUB [/rosout] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,580: -PUB [/tf] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,581: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,589: publisherUpdate[/tf] -> http://0d53e7b9f3a1:42713/ ['http://0d53e7b9f3a1:34473/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,598: publisherUpdate[/tf] -> http://0d53e7b9f3a1:42713/ ['http://0d53e7b9f3a1:34473/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,601: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:43397/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,607: -PUB [/rosout] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,612: -PUB [/tf_static] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,621: -PUB [/depthimage_to_laserscan/parameter_descriptions] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,630: -SUB [/clock] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,640: -PUB [/depthimage_to_laserscan/parameter_updates] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,666: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,669: -SUB [/joint_states] /robot_state_publisher http://0d53e7b9f3a1:41907/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,670: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:33173/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,673: -PUB [/scan] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,674: publisherUpdate[/tf_static] -> http://0d53e7b9f3a1:42713/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:10,681: publisherUpdate[/tf_static] -> http://0d53e7b9f3a1:42713/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,682: publisherUpdate[/scan] -> http://0d53e7b9f3a1:42713/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:10,684: publisherUpdate[/scan] -> http://0d53e7b9f3a1:42713/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,687: publisherUpdate[/scan] -> http://0d53e7b9f3a1:38679/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:10,697: -PUB [/laserscan_nodelet_manager/bond] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,699: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:43397/ ['http://0d53e7b9f3a1:33513/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,702: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:33513/ ['http://0d53e7b9f3a1:33513/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,707: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:43397/ ['http://0d53e7b9f3a1:33513/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2018-06-11 20:08:10,710: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:33513/ ['http://0d53e7b9f3a1:33513/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,714: publisherUpdate[/scan] -> http://0d53e7b9f3a1:38679/ []: sec=0.03, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2018-06-11 20:08:10,719: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-11 20:08:10,720: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://0d53e7b9f3a1:58495
+[rosmaster.master][INFO] 2018-06-11 20:08:10,731: -PUB [/rosout] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,755: -SUB [/clock] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,761: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://0d53e7b9f3a1:58495
+[rosmaster.master][INFO] 2018-06-11 20:08:10,768: -PUB [/cmd_vel_mux/parameter_descriptions] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,779: -SUB [/laserscan_nodelet_manager/bond] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,786: -PUB [/cmd_vel_mux/parameter_updates] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,798: -SUB [/camera/depth/image_raw] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,808: -PUB [/mobile_base/commands/velocity] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,811: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,813: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:33513/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,814: publisherUpdate[/mobile_base/commands/velocity] -> http://0d53e7b9f3a1:34473/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:10,817: publisherUpdate[/mobile_base/commands/velocity] -> http://0d53e7b9f3a1:34473/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,821: -SUB [/camera/depth/camera_info] /laserscan_nodelet_manager http://0d53e7b9f3a1:43397/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,834: -PUB [/cmd_vel_mux/active] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,857: -SERVICE [/laserscan_nodelet_manager/get_loggers] /laserscan_nodelet_manager rosrpc://0d53e7b9f3a1:48619
+[rosmaster.master][INFO] 2018-06-11 20:08:10,881: -PUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,892: -SERVICE [/laserscan_nodelet_manager/set_logger_level] /laserscan_nodelet_manager rosrpc://0d53e7b9f3a1:48619
+[rosmaster.master][INFO] 2018-06-11 20:08:10,903: -PUB [/mobile_base/sensors/bumper_pointcloud] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,910: -SERVICE [/laserscan_nodelet_manager/load_nodelet] /laserscan_nodelet_manager rosrpc://0d53e7b9f3a1:48619
+[rosmaster.master][INFO] 2018-06-11 20:08:10,917: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,919: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,920: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38393/ ['http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']
+[rosmaster.master][INFO] 2018-06-11 20:08:10,922: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,926: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38393/ ['http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:10,927: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:33173/ ['http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2018-06-11 20:08:10,930: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-11 20:08:10,931: -SUB [/clock] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,942: -SERVICE [/laserscan_nodelet_manager/unload_nodelet] /laserscan_nodelet_manager rosrpc://0d53e7b9f3a1:48619
+[rosmaster.master][INFO] 2018-06-11 20:08:10,952: -SUB [/cmd_vel_mux/input/safety_controller] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,969: -SERVICE [/laserscan_nodelet_manager/list] /laserscan_nodelet_manager rosrpc://0d53e7b9f3a1:48619
+[rosmaster.master][INFO] 2018-06-11 20:08:10,979: -SUB [/cmd_vel_mux/input/teleop] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:10,988: -SERVICE [/depthimage_to_laserscan/set_parameters] /laserscan_nodelet_manager rosrpc://0d53e7b9f3a1:48619
+[rosmaster.master][INFO] 2018-06-11 20:08:11,000: -SUB [/cmd_vel_mux/input/switch] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,025: -SUB [/cmd_vel_mux/input/navi] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,040: -SUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,047: -SUB [/mobile_base/sensors/core] /mobile_base_nodelet_manager http://0d53e7b9f3a1:33173/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,064: -SERVICE [/mobile_base_nodelet_manager/get_loggers] /mobile_base_nodelet_manager rosrpc://0d53e7b9f3a1:36143
+[rosmaster.master][INFO] 2018-06-11 20:08:11,087: -SERVICE [/mobile_base_nodelet_manager/set_logger_level] /mobile_base_nodelet_manager rosrpc://0d53e7b9f3a1:36143
+[rosmaster.master][INFO] 2018-06-11 20:08:11,099: -SERVICE [/mobile_base_nodelet_manager/load_nodelet] /mobile_base_nodelet_manager rosrpc://0d53e7b9f3a1:36143
+[rosmaster.master][INFO] 2018-06-11 20:08:11,117: -SERVICE [/mobile_base_nodelet_manager/unload_nodelet] /mobile_base_nodelet_manager rosrpc://0d53e7b9f3a1:36143
+[rosmaster.master][INFO] 2018-06-11 20:08:11,127: -PUB [/rosout] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,131: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:08:11,138: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:38393/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,141: -SERVICE [/mobile_base_nodelet_manager/list] /mobile_base_nodelet_manager rosrpc://0d53e7b9f3a1:36143
+[rosmaster.master][INFO] 2018-06-11 20:08:11,169: -PUB [/laserscan_nodelet_manager/bond] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,180: -SERVICE [/cmd_vel_mux/set_parameters] /mobile_base_nodelet_manager rosrpc://0d53e7b9f3a1:36143
+[rosmaster.master][INFO] 2018-06-11 20:08:11,188: -SUB [/clock] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,223: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:33513/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:11,228: publisherUpdate[/laserscan_nodelet_manager/bond] -> http://0d53e7b9f3a1:33513/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2018-06-11 20:08:11,230: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-11 20:08:11,233: -SUB [/laserscan_nodelet_manager/bond] /depthimage_to_laserscan http://0d53e7b9f3a1:33513/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,242: -PUB [/rosout] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,251: -SERVICE [/depthimage_to_laserscan/get_loggers] /depthimage_to_laserscan rosrpc://0d53e7b9f3a1:34717
+[rosmaster.master][INFO] 2018-06-11 20:08:11,259: -PUB [/mobile_base_nodelet_manager/bond] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,266: -SERVICE [/depthimage_to_laserscan/set_logger_level] /depthimage_to_laserscan rosrpc://0d53e7b9f3a1:34717
+[rosmaster.master][INFO] 2018-06-11 20:08:11,272: -SUB [/clock] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,283: -SUB [/mobile_base_nodelet_manager/bond] /bumper2pointcloud http://0d53e7b9f3a1:38393/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,299: -SERVICE [/bumper2pointcloud/get_loggers] /bumper2pointcloud rosrpc://0d53e7b9f3a1:55635
+[rosmaster.master][INFO] 2018-06-11 20:08:11,307: -SERVICE [/bumper2pointcloud/set_logger_level] /bumper2pointcloud rosrpc://0d53e7b9f3a1:55635
+[rosmaster.master][INFO] 2018-06-11 20:08:11,332: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:08:11,332: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:38883/']
+[rosmaster.master][INFO] 2018-06-11 20:08:11,338: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:38883/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,339: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ ['http://0d53e7b9f3a1:38883/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2018-06-11 20:08:11,343: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2018-06-11 20:08:11,340: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38393/ ['http://0d53e7b9f3a1:38883/']
+[rosmaster.master][INFO] 2018-06-11 20:08:11,344: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38393/ ['http://0d53e7b9f3a1:38883/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2018-06-11 20:08:11,350: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2018-06-11 20:08:11,353: -PUB [/rosout] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,368: -PUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,377: -SUB [/clock] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,387: -SUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://0d53e7b9f3a1:38883/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,395: -SERVICE [/cmd_vel_mux/get_loggers] /cmd_vel_mux rosrpc://0d53e7b9f3a1:35461
+[rosmaster.master][INFO] 2018-06-11 20:08:11,404: -SERVICE [/cmd_vel_mux/set_logger_level] /cmd_vel_mux rosrpc://0d53e7b9f3a1:35461
+[rosmaster.master][INFO] 2018-06-11 20:08:11,442: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']
+[rosmaster.master][INFO] 2018-06-11 20:08:11,443: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:42713/', 'http://0d53e7b9f3a1:38679/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,444: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:11,445: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://0d53e7b9f3a1:38883/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2018-06-11 20:08:11,446: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2018-06-11 20:08:11,513: -SUB [/gazebo/set_link_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,517: -SUB [/gazebo/set_model_state] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,521: -PUB [/clock] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,529: -PUB [/gazebo/link_states] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,534: -PUB [/gazebo/model_states] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,538: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,541: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,545: publisherUpdate[/clock] -> http://0d53e7b9f3a1:45747/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:11,547: publisherUpdate[/clock] -> http://0d53e7b9f3a1:45747/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,548: publisherUpdate[/clock] -> http://0d53e7b9f3a1:42713/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:11,549: publisherUpdate[/clock] -> http://0d53e7b9f3a1:34473/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:11,550: publisherUpdate[/clock] -> http://0d53e7b9f3a1:42713/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,552: publisherUpdate[/clock] -> http://0d53e7b9f3a1:38679/ []
+[rosmaster.master][INFO] 2018-06-11 20:08:11,553: publisherUpdate[/clock] -> http://0d53e7b9f3a1:34473/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,556: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,560: publisherUpdate[/clock] -> http://0d53e7b9f3a1:38679/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:11,562: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,565: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,567: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,570: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,574: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,577: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,580: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,583: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,588: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,592: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,596: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,599: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,601: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,605: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,609: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,611: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,620: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,624: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,627: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,631: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,634: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,638: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,642: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,645: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:11,649: -PUB [/gazebo/parameter_descriptions] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,652: -PUB [/gazebo/parameter_updates] /gazebo http://0d53e7b9f3a1:34473/
+[rosmaster.master][INFO] 2018-06-11 20:08:11,656: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://0d53e7b9f3a1:33039
+[rosmaster.master][INFO] 2018-06-11 20:08:15,846: -SUB [/clock] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:08:15,847: -SUB [/scan] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:08:15,848: -PUB [/rosout] /reading_ranges http://0d53e7b9f3a1:38679/
+[rosmaster.master][INFO] 2018-06-11 20:08:15,848: -SERVICE [/reading_ranges/set_logger_level] /reading_ranges rosrpc://0d53e7b9f3a1:39897
+[rosmaster.master][INFO] 2018-06-11 20:08:15,848: -SERVICE [/reading_ranges/get_loggers] /reading_ranges rosrpc://0d53e7b9f3a1:39897
+[rosmaster.master][INFO] 2018-06-11 20:08:15,876: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:42713/']
+[rosmaster.master][INFO] 2018-06-11 20:08:15,877: publisherUpdate[/rosout] -> http://0d53e7b9f3a1:45747/ ['http://0d53e7b9f3a1:34473/', 'http://0d53e7b9f3a1:42713/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2018-06-11 20:08:25,728: -PUB [/rosout_agg] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 20:08:25,736: -SUB [/clock] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 20:08:25,745: -SUB [/rosout] /rosout http://0d53e7b9f3a1:45747/
+[rosmaster.master][INFO] 2018-06-11 20:08:25,754: -SERVICE [/rosout/get_loggers] /rosout rosrpc://0d53e7b9f3a1:36851
+[rosmaster.master][INFO] 2018-06-11 20:08:25,761: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://0d53e7b9f3a1:36851
+[rosmaster.main][INFO] 2018-06-11 20:08:25,930: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2018-06-11 20:08:25,930: stopping master...
+[rospy.core][INFO] 2018-06-11 20:08:25,931: signal_shutdown [atexit]

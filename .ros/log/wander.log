@@ -1,0 +1,1064 @@
+[rospy.client][INFO] 2018-06-11 20:21:00,125: init_node, name[/wander], pid[3099]
+[xmlrpc][INFO] 2018-06-11 20:21:00,136: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 20:21:00,138: ROS Slave URI: [http://0d53e7b9f3a1:39199/]
+[xmlrpc][INFO] 2018-06-11 20:21:00,137: Started XML-RPC server [http://0d53e7b9f3a1:39199/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:21:00,138: _ready: http://0d53e7b9f3a1:39199/
+[xmlrpc][INFO] 2018-06-11 20:21:00,145: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:21:00,145: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 20:21:00,145: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[rospy.registration][INFO] 2018-06-11 20:21:00,159: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 20:21:00,182: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 20:21:00,238: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:21:00,238: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:21:00,256: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:21:00,279: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:21:00,326: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:21:00,352: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 20:21:00,385: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rospy.internal][INFO] 2018-06-11 20:21:00,479: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 20:21:01,300: 0
+[rosout][INFO] 2018-06-11 20:21:01,705: 1.73453402519
+[rosout][INFO] 2018-06-11 20:21:02,065: 1.6702568531
+[rosout][INFO] 2018-06-11 20:21:02,650: 1.52476334572
+[rosout][INFO] 2018-06-11 20:21:03,362: 0
+[rosout][INFO] 2018-06-11 20:21:04,030: 0
+[rosout][INFO] 2018-06-11 20:21:04,950: 0.887516617775
+[rosout][INFO] 2018-06-11 20:21:05,820: 0.846697151661
+[rosout][INFO] 2018-06-11 20:21:06,691: 0.541956067085
+[rosout][INFO] 2018-06-11 20:21:07,762: 0
+[rosout][INFO] 2018-06-11 20:21:08,689: 0
+[rosout][INFO] 2018-06-11 20:21:09,626: 0
+[rosout][INFO] 2018-06-11 20:21:10,516: 0
+[rosout][INFO] 2018-06-11 20:21:12,562: 0
+[rosout][INFO] 2018-06-11 20:21:14,173: 0
+[rosout][INFO] 2018-06-11 20:21:15,990: 0
+[rosout][INFO] 2018-06-11 20:21:17,232: 0
+[rosout][INFO] 2018-06-11 20:21:18,341: 0
+[rosout][INFO] 2018-06-11 20:21:18,941: 0
+[rosout][INFO] 2018-06-11 20:21:19,478: 0
+[rosout][INFO] 2018-06-11 20:21:20,128: 0
+[rosout][INFO] 2018-06-11 20:21:20,717: 0
+[rosout][INFO] 2018-06-11 20:21:21,170: 0
+[rosout][INFO] 2018-06-11 20:21:21,547: 0
+[rosout][INFO] 2018-06-11 20:21:22,011: 0
+[rosout][INFO] 2018-06-11 20:21:22,419: 0
+[rosout][INFO] 2018-06-11 20:21:22,904: 0
+[rosout][INFO] 2018-06-11 20:21:23,332: 0
+[rosout][INFO] 2018-06-11 20:21:23,571: 0
+[rosout][INFO] 2018-06-11 20:21:23,926: 0
+[rosout][INFO] 2018-06-11 20:21:24,252: 0
+[rosout][INFO] 2018-06-11 20:21:24,588: 0
+[rosout][INFO] 2018-06-11 20:21:24,914: 0
+[rosout][INFO] 2018-06-11 20:21:25,158: 0
+[rosout][INFO] 2018-06-11 20:21:25,387: 0
+[rosout][INFO] 2018-06-11 20:21:25,671: 0
+[rosout][INFO] 2018-06-11 20:21:25,872: 0
+[rosout][INFO] 2018-06-11 20:21:26,045: 0
+[rosout][INFO] 2018-06-11 20:21:26,229: 0
+[rosout][INFO] 2018-06-11 20:21:26,420: 0
+[rosout][INFO] 2018-06-11 20:21:26,569: 0
+[rosout][INFO] 2018-06-11 20:21:26,757: 0
+[rosout][INFO] 2018-06-11 20:21:26,986: 0
+[rosout][INFO] 2018-06-11 20:21:27,235: 0
+[rosout][INFO] 2018-06-11 20:21:27,579: 0
+[rosout][INFO] 2018-06-11 20:21:27,965: 0
+[rosout][INFO] 2018-06-11 20:21:28,187: 0
+[rosout][INFO] 2018-06-11 20:21:28,480: 0
+[rosout][INFO] 2018-06-11 20:21:28,755: 0
+[rosout][INFO] 2018-06-11 20:21:29,104: 0
+[rosout][INFO] 2018-06-11 20:21:29,327: 0
+[rosout][INFO] 2018-06-11 20:21:29,614: 0
+[rosout][INFO] 2018-06-11 20:21:31,263: 0
+[rosout][INFO] 2018-06-11 20:21:31,660: 0
+[rosout][INFO] 2018-06-11 20:21:32,067: 0
+[rosout][INFO] 2018-06-11 20:21:32,341: 0
+[rosout][INFO] 2018-06-11 20:21:32,576: 0
+[rosout][INFO] 2018-06-11 20:21:32,814: 0
+[rosout][INFO] 2018-06-11 20:21:33,123: 0
+[rosout][INFO] 2018-06-11 20:21:33,623: 0
+[rosout][INFO] 2018-06-11 20:21:34,063: 0
+[rosout][INFO] 2018-06-11 20:21:34,353: 0
+[rosout][INFO] 2018-06-11 20:21:34,703: 0
+[rosout][INFO] 2018-06-11 20:21:35,150: 0
+[rosout][INFO] 2018-06-11 20:21:35,532: 0
+[rosout][INFO] 2018-06-11 20:21:35,981: 0
+[rosout][INFO] 2018-06-11 20:21:36,393: 0
+[rosout][INFO] 2018-06-11 20:21:36,745: 0
+[rosout][INFO] 2018-06-11 20:21:36,988: 0
+[rosout][INFO] 2018-06-11 20:21:37,402: 0
+[rosout][INFO] 2018-06-11 20:21:37,863: 0
+[rosout][INFO] 2018-06-11 20:21:38,180: 0
+[rosout][INFO] 2018-06-11 20:21:38,789: 0
+[rosout][INFO] 2018-06-11 20:21:39,292: 0
+[rosout][INFO] 2018-06-11 20:21:39,700: 0
+[rosout][INFO] 2018-06-11 20:21:40,088: 0
+[rosout][INFO] 2018-06-11 20:21:40,483: 0
+[rosout][INFO] 2018-06-11 20:21:41,057: 0
+[rosout][INFO] 2018-06-11 20:21:41,543: 0
+[rosout][INFO] 2018-06-11 20:21:42,128: 0
+[rosout][INFO] 2018-06-11 20:21:42,596: 0
+[rosout][INFO] 2018-06-11 20:21:42,844: 1.56271159649
+[rosout][INFO] 2018-06-11 20:21:43,249: 1.55370366573
+[rosout][INFO] 2018-06-11 20:21:43,727: 1.96530044079
+[rosout][INFO] 2018-06-11 20:21:44,098: 1.86608719826
+[rosout][INFO] 2018-06-11 20:21:44,356: 1.76772654057
+[rosout][INFO] 2018-06-11 20:21:44,692: 1.60768890381
+[rosout][INFO] 2018-06-11 20:21:45,025: 1.4435737133
+[rosout][INFO] 2018-06-11 20:21:45,414: 1.27541363239
+[rosout][INFO] 2018-06-11 20:21:45,759: 1.08258163929
+[rosout][INFO] 2018-06-11 20:21:46,198: 0.881618618965
+[rosout][INFO] 2018-06-11 20:21:46,531: 0.701865017414
+[rosout][INFO] 2018-06-11 20:21:46,736: 0.603493154049
+[rosout][INFO] 2018-06-11 20:21:46,920: 0.54495203495
+[rosout][INFO] 2018-06-11 20:21:47,060: 0.519099473953
+[rosout][INFO] 2018-06-11 20:21:47,192: 0.506112873554
+[rosout][INFO] 2018-06-11 20:21:47,360: 0.491523623466
+[rosout][INFO] 2018-06-11 20:21:47,534: 0.483374416828
+[rosout][INFO] 2018-06-11 20:21:47,705: 0.482742965221
+[rosout][INFO] 2018-06-11 20:21:47,835: 0.483017265797
+[rosout][INFO] 2018-06-11 20:21:47,971: 0.48393419385
+[rosout][INFO] 2018-06-11 20:21:48,212: 0.477497905493
+[rosout][INFO] 2018-06-11 20:21:48,373: 0
+[rosout][INFO] 2018-06-11 20:21:48,635: 0
+[rosout][INFO] 2018-06-11 20:21:48,855: 0
+[rosout][INFO] 2018-06-11 20:21:49,075: 0
+[rosout][INFO] 2018-06-11 20:21:49,317: 0
+[rosout][INFO] 2018-06-11 20:21:49,500: 0
+[rosout][INFO] 2018-06-11 20:21:49,630: 0
+[rosout][INFO] 2018-06-11 20:21:49,752: 0
+[rosout][INFO] 2018-06-11 20:21:49,905: 0
+[rosout][INFO] 2018-06-11 20:21:50,038: 0
+[rosout][INFO] 2018-06-11 20:21:50,146: 0
+[rosout][INFO] 2018-06-11 20:21:50,240: 0
+[rosout][INFO] 2018-06-11 20:21:50,339: 0
+[rosout][INFO] 2018-06-11 20:21:50,473: 0
+[rosout][INFO] 2018-06-11 20:21:50,610: 0
+[rosout][INFO] 2018-06-11 20:21:50,772: 0
+[rosout][INFO] 2018-06-11 20:21:50,999: 0
+[rosout][INFO] 2018-06-11 20:21:51,188: 0
+[rosout][INFO] 2018-06-11 20:21:51,470: 0
+[rosout][INFO] 2018-06-11 20:21:51,684: 0
+[rosout][INFO] 2018-06-11 20:21:51,890: 0
+[rosout][INFO] 2018-06-11 20:21:52,070: 0
+[rosout][INFO] 2018-06-11 20:21:52,245: 0
+[rosout][INFO] 2018-06-11 20:21:52,445: 0
+[rosout][INFO] 2018-06-11 20:21:52,609: 0
+[rosout][INFO] 2018-06-11 20:21:52,810: 0
+[rosout][INFO] 2018-06-11 20:21:52,984: 0
+[rosout][INFO] 2018-06-11 20:21:53,267: 0
+[rosout][INFO] 2018-06-11 20:21:53,588: 0
+[rosout][INFO] 2018-06-11 20:21:53,798: 0
+[rosout][INFO] 2018-06-11 20:21:53,977: 0
+[rosout][INFO] 2018-06-11 20:21:54,251: 0
+[rosout][INFO] 2018-06-11 20:21:54,532: 0
+[rosout][INFO] 2018-06-11 20:21:54,886: 0
+[rosout][INFO] 2018-06-11 20:21:55,246: 0
+[rosout][INFO] 2018-06-11 20:21:55,646: 0
+[rosout][INFO] 2018-06-11 20:21:55,800: 0
+[rosout][INFO] 2018-06-11 20:21:56,107: 1.19250452518
+[rosout][INFO] 2018-06-11 20:21:56,334: 1.19227230549
+[rosout][INFO] 2018-06-11 20:21:56,626: 1.17975223064
+[rosout][INFO] 2018-06-11 20:21:57,032: 1.11642742157
+[rosout][INFO] 2018-06-11 20:21:57,378: 1.85013699532
+[rosout][INFO] 2018-06-11 20:21:57,636: 1.74805986881
+[rosout][INFO] 2018-06-11 20:21:58,141: 1.52146208286
+[rosout][INFO] 2018-06-11 20:21:58,660: 0
+[rosout][INFO] 2018-06-11 20:21:58,968: 0
+[rosout][INFO] 2018-06-11 20:21:59,206: 0
+[rosout][INFO] 2018-06-11 20:21:59,546: 0
+[rosout][INFO] 2018-06-11 20:22:00,194: 0
+[rosout][INFO] 2018-06-11 20:22:00,626: 0
+[rosout][INFO] 2018-06-11 20:22:00,931: 0
+[rosout][INFO] 2018-06-11 20:22:01,212: 0
+[rosout][INFO] 2018-06-11 20:22:01,720: 0
+[rosout][INFO] 2018-06-11 20:22:02,406: 0.641355633736
+[rosout][INFO] 2018-06-11 20:22:03,132: 0
+[rosout][INFO] 2018-06-11 20:22:03,918: 0
+[rosout][INFO] 2018-06-11 20:22:04,491: 0
+[rosout][INFO] 2018-06-11 20:22:05,521: 0
+[rosout][INFO] 2018-06-11 20:22:06,129: 0
+[rosout][INFO] 2018-06-11 20:22:06,675: 0
+[rosout][INFO] 2018-06-11 20:22:07,116: 0
+[rosout][INFO] 2018-06-11 20:22:07,543: 0
+[rosout][INFO] 2018-06-11 20:22:07,965: 0
+[rosout][INFO] 2018-06-11 20:22:08,309: 0
+[rosout][INFO] 2018-06-11 20:22:08,790: 0
+[rosout][INFO] 2018-06-11 20:22:09,082: 0
+[rosout][INFO] 2018-06-11 20:22:09,488: 0
+[rosout][INFO] 2018-06-11 20:22:09,973: 0
+[rosout][INFO] 2018-06-11 20:22:10,466: 0
+[rosout][INFO] 2018-06-11 20:22:11,010: 0
+[rosout][INFO] 2018-06-11 20:22:11,571: 0
+[rosout][INFO] 2018-06-11 20:22:11,915: 0
+[rosout][INFO] 2018-06-11 20:22:12,268: 0
+[rosout][INFO] 2018-06-11 20:22:12,672: 0
+[rosout][INFO] 2018-06-11 20:22:12,979: 0
+[rosout][INFO] 2018-06-11 20:22:13,335: 0
+[rosout][INFO] 2018-06-11 20:22:13,799: 0
+[rosout][INFO] 2018-06-11 20:22:14,250: 0
+[rospy.core][INFO] 2018-06-11 20:22:14,314: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:22:14,333: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 20:22:14,336: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:22:14,343: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][INFO] 2018-06-11 20:22:14,345: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.internal][WARNING] 2018-06-11 20:22:14,356: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:36039 (http://0d53e7b9f3a1:44587/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2018-06-11 20:22:14,366: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2018-06-11 20:22:14,370: signal-2
+[rospy.core][INFO] 2018-06-11 20:22:14,476: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:57:00,959: init_node, name[/wander], pid[3531]
+[xmlrpc][INFO] 2018-06-11 20:57:00,968: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 20:57:00,971: ROS Slave URI: [http://0d53e7b9f3a1:33487/]
+[xmlrpc][INFO] 2018-06-11 20:57:00,970: Started XML-RPC server [http://0d53e7b9f3a1:33487/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:57:00,973: _ready: http://0d53e7b9f3a1:33487/
+[xmlrpc][INFO] 2018-06-11 20:57:00,981: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:57:00,981: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 20:57:00,982: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[rospy.registration][INFO] 2018-06-11 20:57:00,991: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 20:57:01,013: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 20:57:01,072: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:57:01,073: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:57:01,090: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:57:01,092: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:57:01,100: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:57:01,129: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 20:57:01,209: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rosout][INFO] 2018-06-11 20:57:01,289: 0.5697671175
+[rospy.internal][INFO] 2018-06-11 20:57:01,309: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 20:57:01,559: 0.565279662609
+[rosout][INFO] 2018-06-11 20:57:01,827: 0.567984104156
+[rosout][INFO] 2018-06-11 20:57:02,123: 0.573251783848
+[rosout][INFO] 2018-06-11 20:57:02,425: 0.573812782764
+[rosout][INFO] 2018-06-11 20:57:02,692: 0.579800665379
+[rosout][INFO] 2018-06-11 20:57:02,887: 0.581696987152
+[rosout][INFO] 2018-06-11 20:57:03,122: 2.4501144886
+[rosout][INFO] 2018-06-11 20:57:03,307: 2.45130968094
+[rosout][INFO] 2018-06-11 20:57:03,541: 2.44585371017
+[rosout][INFO] 2018-06-11 20:57:03,713: 2.42324876785
+[rosout][INFO] 2018-06-11 20:57:03,926: 2.35635399818
+[rosout][INFO] 2018-06-11 20:57:04,092: 2.28287792206
+[rospy.core][INFO] 2018-06-11 20:57:04,233: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:57:04,251: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 20:57:04,251: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:57:04,256: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][INFO] 2018-06-11 20:57:04,260: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.impl.masterslave][INFO] 2018-06-11 20:57:04,261: signal-2
+[rospy.core][INFO] 2018-06-11 20:57:04,880: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:57:53,146: init_node, name[/wander], pid[3608]
+[xmlrpc][INFO] 2018-06-11 20:57:53,147: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 20:57:53,149: ROS Slave URI: [http://0d53e7b9f3a1:42325/]
+[xmlrpc][INFO] 2018-06-11 20:57:53,150: Started XML-RPC server [http://0d53e7b9f3a1:42325/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:57:53,150: _ready: http://0d53e7b9f3a1:42325/
+[xmlrpc][INFO] 2018-06-11 20:57:53,151: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:57:53,151: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 20:57:53,151: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[rospy.registration][INFO] 2018-06-11 20:57:53,167: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 20:57:53,193: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 20:57:53,250: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:57:53,250: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:57:53,265: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:57:53,275: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:57:53,309: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:57:53,361: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 20:57:53,421: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rospy.internal][INFO] 2018-06-11 20:57:53,513: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 20:57:53,700: 1.75719535351
+[rosout][INFO] 2018-06-11 20:57:53,877: 1.72347736359
+[rosout][INFO] 2018-06-11 20:57:54,153: 1.63128554821
+[rosout][INFO] 2018-06-11 20:57:54,381: 1.5204590559
+[rosout][INFO] 2018-06-11 20:57:54,609: 1.39505052567
+[rosout][INFO] 2018-06-11 20:57:54,818: 1.30066347122
+[rosout][INFO] 2018-06-11 20:57:55,027: 1.18659079075
+[rosout][INFO] 2018-06-11 20:57:55,253: 1.08244884014
+[rosout][INFO] 2018-06-11 20:57:55,524: 0.938656449318
+[rosout][INFO] 2018-06-11 20:57:55,822: 0.804869174957
+[rosout][INFO] 2018-06-11 20:57:56,089: 0.666202366352
+[rosout][INFO] 2018-06-11 20:57:56,352: 0.55029708147
+[rosout][INFO] 2018-06-11 20:57:56,534: 0.502291858196
+[rosout][INFO] 2018-06-11 20:57:56,742: 0.476694792509
+[rosout][INFO] 2018-06-11 20:57:56,944: 0.455670744181
+[rosout][INFO] 2018-06-11 20:57:57,145: 0.45233258605
+[rosout][INFO] 2018-06-11 20:57:57,368: 0.453856468201
+[rosout][INFO] 2018-06-11 20:57:57,620: 0.450001597404
+[rosout][INFO] 2018-06-11 20:57:57,841: 0.450003117323
+[rosout][INFO] 2018-06-11 20:57:58,019: 0.450001239777
+[rosout][INFO] 2018-06-11 20:57:58,264: 0.450011312962
+[rosout][INFO] 2018-06-11 20:57:58,484: 0.450006216764
+[rosout][INFO] 2018-06-11 20:57:58,709: 0.450006663799
+[rosout][INFO] 2018-06-11 20:57:58,868: 0.450005948544
+[rosout][INFO] 2018-06-11 20:57:59,125: 0.450005352497
+[rosout][INFO] 2018-06-11 20:57:59,379: 0.450001835823
+[rosout][INFO] 2018-06-11 20:57:59,629: 0.450009286404
+[rosout][INFO] 2018-06-11 20:57:59,939: 0.450014084578
+[rosout][INFO] 2018-06-11 20:58:00,173: 0.450030177832
+[rosout][INFO] 2018-06-11 20:58:00,412: 0.450008362532
+[rosout][INFO] 2018-06-11 20:58:00,672: 0.450022161007
+[rosout][INFO] 2018-06-11 20:58:00,892: 0.450001567602
+[rosout][INFO] 2018-06-11 20:58:01,068: 0.450002521276
+[rosout][INFO] 2018-06-11 20:58:01,303: 0.45001283288
+[rosout][INFO] 2018-06-11 20:58:01,543: 0
+[rosout][INFO] 2018-06-11 20:58:01,741: 0
+[rosout][INFO] 2018-06-11 20:58:01,941: 0
+[rosout][INFO] 2018-06-11 20:58:02,174: 0
+[rosout][INFO] 2018-06-11 20:58:02,471: 0
+[rosout][INFO] 2018-06-11 20:58:02,690: 0
+[rosout][INFO] 2018-06-11 20:58:02,945: 0
+[rosout][INFO] 2018-06-11 20:58:03,188: 0
+[rosout][INFO] 2018-06-11 20:58:03,429: 0
+[rosout][INFO] 2018-06-11 20:58:03,661: 0
+[rosout][INFO] 2018-06-11 20:58:03,997: 0
+[rosout][INFO] 2018-06-11 20:58:04,270: 0
+[rosout][INFO] 2018-06-11 20:58:04,560: 0
+[rosout][INFO] 2018-06-11 20:58:04,857: 0
+[rosout][INFO] 2018-06-11 20:58:05,191: 0
+[rosout][INFO] 2018-06-11 20:58:05,522: 0
+[rosout][INFO] 2018-06-11 20:58:05,787: 0
+[rosout][INFO] 2018-06-11 20:58:06,054: 0
+[rosout][INFO] 2018-06-11 20:58:06,374: 0
+[rosout][INFO] 2018-06-11 20:58:06,714: 0
+[rosout][INFO] 2018-06-11 20:58:07,011: 0
+[rosout][INFO] 2018-06-11 20:58:07,317: 0
+[rosout][INFO] 2018-06-11 20:58:07,674: 0
+[rosout][INFO] 2018-06-11 20:58:08,029: 0
+[rosout][INFO] 2018-06-11 20:58:08,366: 0
+[rosout][INFO] 2018-06-11 20:58:08,628: 0
+[rosout][INFO] 2018-06-11 20:58:08,886: 0
+[rosout][INFO] 2018-06-11 20:58:09,150: 0
+[rosout][INFO] 2018-06-11 20:58:09,483: 0
+[rosout][INFO] 2018-06-11 20:58:09,788: 0
+[rosout][INFO] 2018-06-11 20:58:10,005: 0
+[rosout][INFO] 2018-06-11 20:58:10,328: 0
+[rosout][INFO] 2018-06-11 20:58:10,621: 0
+[rosout][INFO] 2018-06-11 20:58:10,896: 0
+[rosout][INFO] 2018-06-11 20:58:11,102: 0
+[rosout][INFO] 2018-06-11 20:58:11,352: 0
+[rosout][INFO] 2018-06-11 20:58:11,645: 0
+[rosout][INFO] 2018-06-11 20:58:11,986: 0
+[rosout][INFO] 2018-06-11 20:58:12,228: 0
+[rosout][INFO] 2018-06-11 20:58:12,519: 0
+[rosout][INFO] 2018-06-11 20:58:12,800: 0
+[rosout][INFO] 2018-06-11 20:58:13,072: 0
+[rosout][INFO] 2018-06-11 20:58:13,315: 0
+[rosout][INFO] 2018-06-11 20:58:13,582: 0.458879470825
+[rosout][INFO] 2018-06-11 20:58:13,869: 0.460855036974
+[rosout][INFO] 2018-06-11 20:58:14,068: 0.462523758411
+[rosout][INFO] 2018-06-11 20:58:14,314: 0.466831058264
+[rosout][INFO] 2018-06-11 20:58:14,609: 0.471509456635
+[rosout][INFO] 2018-06-11 20:58:14,900: 0.476153343916
+[rosout][INFO] 2018-06-11 20:58:15,183: 0.481833636761
+[rosout][INFO] 2018-06-11 20:58:15,403: 0.483990341425
+[rosout][INFO] 2018-06-11 20:58:15,766: 0.489844620228
+[rosout][INFO] 2018-06-11 20:58:16,196: 0.501218497753
+[rosout][INFO] 2018-06-11 20:58:16,409: 0.507918715477
+[rosout][INFO] 2018-06-11 20:58:16,678: 0.509796261787
+[rosout][INFO] 2018-06-11 20:58:17,107: 0.519972741604
+[rosout][INFO] 2018-06-11 20:58:17,360: 0.527356982231
+[rosout][INFO] 2018-06-11 20:58:17,737: 0.536364734173
+[rosout][INFO] 2018-06-11 20:58:18,036: 0.546718835831
+[rosout][INFO] 2018-06-11 20:58:18,474: 0.5589427948
+[rosout][INFO] 2018-06-11 20:58:18,716: 0.567071795464
+[rosout][INFO] 2018-06-11 20:58:18,970: 0.577681362629
+[rosout][INFO] 2018-06-11 20:58:19,182: 0.589028835297
+[rosout][INFO] 2018-06-11 20:58:19,445: 0.595776081085
+[rosout][INFO] 2018-06-11 20:58:19,631: 0.604829132557
+[rosout][INFO] 2018-06-11 20:58:19,859: 0.621026158333
+[rosout][INFO] 2018-06-11 20:58:20,076: 0.627098977566
+[rosout][INFO] 2018-06-11 20:58:20,264: 0.636806428432
+[rosout][INFO] 2018-06-11 20:58:20,571: 0.659119963646
+[rosout][INFO] 2018-06-11 20:58:20,772: 0.665560424328
+[rosout][INFO] 2018-06-11 20:58:21,000: 0.677834928036
+[rosout][INFO] 2018-06-11 20:58:21,204: 0.702890574932
+[rosout][INFO] 2018-06-11 20:58:21,406: 0.712749361992
+[rosout][INFO] 2018-06-11 20:58:21,694: 0.738626539707
+[rosout][INFO] 2018-06-11 20:58:21,859: 0.764445722103
+[rosout][INFO] 2018-06-11 20:58:22,021: 0.774641156197
+[rosout][INFO] 2018-06-11 20:58:22,171: 0.782257676125
+[rosout][INFO] 2018-06-11 20:58:22,326: 0.802379190922
+[rosout][INFO] 2018-06-11 20:58:22,493: 0.827769994736
+[rosout][INFO] 2018-06-11 20:58:22,640: 0.853618860245
+[rospy.core][INFO] 2018-06-11 20:58:22,686: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:58:22,707: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 20:58:22,707: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:58:22,707: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][ERROR] 2018-06-11 20:58:22,709: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2018-06-11 20:58:22,711: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.internal][WARNING] 2018-06-11 20:58:22,711: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:36039 (http://0d53e7b9f3a1:44587/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2018-06-11 20:58:22,713: signal-2
+[rospy.core][INFO] 2018-06-11 20:58:22,831: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:58:37,474: init_node, name[/wander], pid[3670]
+[xmlrpc][INFO] 2018-06-11 20:58:37,476: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 20:58:37,481: ROS Slave URI: [http://0d53e7b9f3a1:40669/]
+[xmlrpc][INFO] 2018-06-11 20:58:37,480: Started XML-RPC server [http://0d53e7b9f3a1:40669/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:58:37,482: _ready: http://0d53e7b9f3a1:40669/
+[rospy.registration][INFO] 2018-06-11 20:58:37,483: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 20:58:37,483: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[xmlrpc][INFO] 2018-06-11 20:58:37,484: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:58:37,490: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 20:58:37,502: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 20:58:37,584: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:58:37,584: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:58:37,597: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:58:37,610: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:58:37,636: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:58:37,683: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 20:58:37,727: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rospy.internal][INFO] 2018-06-11 20:58:37,829: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 20:58:37,995: 0.515037834644
+[rosout][INFO] 2018-06-11 20:58:38,262: 0.514599263668
+[rosout][INFO] 2018-06-11 20:58:38,511: 0.520749509335
+[rosout][INFO] 2018-06-11 20:58:38,785: 0.531134366989
+[rosout][INFO] 2018-06-11 20:58:38,995: 0.538941562176
+[rosout][INFO] 2018-06-11 20:58:39,283: 0.549574971199
+[rosout][INFO] 2018-06-11 20:58:39,506: 0.561080098152
+[rosout][INFO] 2018-06-11 20:58:39,714: 0.568601369858
+[rosout][INFO] 2018-06-11 20:58:39,916: 0.579714953899
+[rosout][INFO] 2018-06-11 20:58:40,077: 0.588647186756
+[rosout][INFO] 2018-06-11 20:58:40,231: 0.597092092037
+[rosout][INFO] 2018-06-11 20:58:40,384: 0.602882683277
+[rosout][INFO] 2018-06-11 20:58:40,627: 1.51940131187
+[rosout][INFO] 2018-06-11 20:58:40,773: 1.52210319042
+[rosout][INFO] 2018-06-11 20:58:40,929: 1.51955282688
+[rosout][INFO] 2018-06-11 20:58:41,098: 1.50183260441
+[rosout][INFO] 2018-06-11 20:58:41,231: 1.46748137474
+[rosout][INFO] 2018-06-11 20:58:41,390: 1.42453312874
+[rosout][INFO] 2018-06-11 20:58:41,529: 1.37287020683
+[rosout][INFO] 2018-06-11 20:58:41,701: 1.33311522007
+[rosout][INFO] 2018-06-11 20:58:41,851: 0.45927131176
+[rosout][INFO] 2018-06-11 20:58:42,045: 0
+[rosout][INFO] 2018-06-11 20:58:42,210: 0
+[rosout][INFO] 2018-06-11 20:58:42,419: 0.450006365776
+[rosout][INFO] 2018-06-11 20:58:42,614: 0.450016021729
+[rosout][INFO] 2018-06-11 20:58:42,827: 0.450007706881
+[rosout][INFO] 2018-06-11 20:58:43,066: 0.450029760599
+[rosout][INFO] 2018-06-11 20:58:43,223: 0.450020223856
+[rosout][INFO] 2018-06-11 20:58:43,406: 0.450019598007
+[rosout][INFO] 2018-06-11 20:58:43,572: 0.450010061264
+[rosout][INFO] 2018-06-11 20:58:43,782: 0.450014412403
+[rosout][INFO] 2018-06-11 20:58:44,029: 0.450007170439
+[rosout][INFO] 2018-06-11 20:58:44,204: 0.450004279613
+[rosout][INFO] 2018-06-11 20:58:44,431: 0.450008541346
+[rosout][INFO] 2018-06-11 20:58:44,643: 0.45000821352
+[rosout][INFO] 2018-06-11 20:58:44,842: 0.450001716614
+[rosout][INFO] 2018-06-11 20:58:45,098: 0.450038045645
+[rosout][INFO] 2018-06-11 20:58:45,353: 0.450008034706
+[rosout][INFO] 2018-06-11 20:58:45,796: 0.450006663799
+[rosout][INFO] 2018-06-11 20:58:46,202: 0
+[rosout][INFO] 2018-06-11 20:58:46,481: 0
+[rosout][INFO] 2018-06-11 20:58:46,765: 0
+[rosout][INFO] 2018-06-11 20:58:47,007: 0
+[rosout][INFO] 2018-06-11 20:58:47,227: 0
+[rosout][INFO] 2018-06-11 20:58:47,531: 0
+[rosout][INFO] 2018-06-11 20:58:48,030: 0
+[rosout][INFO] 2018-06-11 20:58:48,309: 0
+[rosout][INFO] 2018-06-11 20:58:48,528: 0
+[rosout][INFO] 2018-06-11 20:58:48,721: 0
+[rosout][INFO] 2018-06-11 20:58:48,904: 0
+[rosout][INFO] 2018-06-11 20:58:49,124: 0
+[rosout][INFO] 2018-06-11 20:58:49,290: 0
+[rosout][INFO] 2018-06-11 20:58:49,450: 0
+[rosout][INFO] 2018-06-11 20:58:49,634: 0
+[rosout][INFO] 2018-06-11 20:58:49,792: 0
+[rosout][INFO] 2018-06-11 20:58:49,988: 0
+[rosout][INFO] 2018-06-11 20:58:50,134: 0
+[rosout][INFO] 2018-06-11 20:58:50,318: 0
+[rosout][INFO] 2018-06-11 20:58:50,484: 0
+[rosout][INFO] 2018-06-11 20:58:50,655: 0
+[rosout][INFO] 2018-06-11 20:58:50,808: 0
+[rosout][INFO] 2018-06-11 20:58:50,966: 0
+[rosout][INFO] 2018-06-11 20:58:51,140: 0
+[rosout][INFO] 2018-06-11 20:58:51,343: 0
+[rosout][INFO] 2018-06-11 20:58:51,506: 0
+[rosout][INFO] 2018-06-11 20:58:51,688: 0
+[rosout][INFO] 2018-06-11 20:58:51,894: 0
+[rosout][INFO] 2018-06-11 20:58:52,107: 0
+[rosout][INFO] 2018-06-11 20:58:52,295: 0
+[rosout][INFO] 2018-06-11 20:58:52,451: 0
+[rosout][INFO] 2018-06-11 20:58:52,604: 0
+[rosout][INFO] 2018-06-11 20:58:52,758: 0
+[rosout][INFO] 2018-06-11 20:58:52,926: 0
+[rosout][INFO] 2018-06-11 20:58:53,079: 0
+[rosout][INFO] 2018-06-11 20:58:53,269: 0
+[rosout][INFO] 2018-06-11 20:58:53,485: 0
+[rosout][INFO] 2018-06-11 20:58:53,645: 0
+[rosout][INFO] 2018-06-11 20:58:53,799: 0
+[rosout][INFO] 2018-06-11 20:58:53,948: 0
+[rosout][INFO] 2018-06-11 20:58:54,092: 0
+[rosout][INFO] 2018-06-11 20:58:54,241: 0
+[rosout][INFO] 2018-06-11 20:58:54,427: 0
+[rosout][INFO] 2018-06-11 20:58:54,619: 0
+[rosout][INFO] 2018-06-11 20:58:54,771: 0
+[rosout][INFO] 2018-06-11 20:58:54,958: 0
+[rosout][INFO] 2018-06-11 20:58:55,101: 0
+[rosout][INFO] 2018-06-11 20:58:55,255: 0
+[rosout][INFO] 2018-06-11 20:58:55,403: 0
+[rosout][INFO] 2018-06-11 20:58:55,666: 0
+[rosout][INFO] 2018-06-11 20:58:55,823: 0
+[rosout][INFO] 2018-06-11 20:58:56,000: 0
+[rosout][INFO] 2018-06-11 20:58:56,227: 0
+[rosout][INFO] 2018-06-11 20:58:56,388: 0
+[rosout][INFO] 2018-06-11 20:58:56,537: 0
+[rosout][INFO] 2018-06-11 20:58:56,701: 0
+[rosout][INFO] 2018-06-11 20:58:56,888: 0
+[rosout][INFO] 2018-06-11 20:58:57,134: 0
+[rosout][INFO] 2018-06-11 20:58:57,377: 0
+[rosout][INFO] 2018-06-11 20:58:57,589: 0
+[rosout][INFO] 2018-06-11 20:58:57,747: 1.16779339314
+[rosout][INFO] 2018-06-11 20:58:57,895: 1.16784787178
+[rosout][INFO] 2018-06-11 20:58:58,130: 1.16356623173
+[rosout][INFO] 2018-06-11 20:58:58,271: 1.14544641972
+[rosout][INFO] 2018-06-11 20:58:58,449: 1.11129307747
+[rosout][INFO] 2018-06-11 20:58:58,618: 1.0628246069
+[rosout][INFO] 2018-06-11 20:58:58,766: 1.01635849476
+[rosout][INFO] 2018-06-11 20:58:58,906: 0.948774397373
+[rosout][INFO] 2018-06-11 20:58:59,060: 0.884929955006
+[rosout][INFO] 2018-06-11 20:58:59,179: 0.820942521095
+[rosout][INFO] 2018-06-11 20:58:59,330: 0.761959671974
+[rosout][INFO] 2018-06-11 20:58:59,517: 0.687107563019
+[rosout][INFO] 2018-06-11 20:58:59,681: 0.61771941185
+[rosout][INFO] 2018-06-11 20:58:59,831: 0.572551846504
+[rosout][INFO] 2018-06-11 20:59:00,031: 0.537321090698
+[rosout][INFO] 2018-06-11 20:59:00,216: 0.50521171093
+[rosout][INFO] 2018-06-11 20:59:00,413: 0.487044692039
+[rosout][INFO] 2018-06-11 20:59:00,594: 0.483485877514
+[rosout][INFO] 2018-06-11 20:59:00,835: 0.484451532364
+[rosout][INFO] 2018-06-11 20:59:01,084: 0.481883823872
+[rosout][INFO] 2018-06-11 20:59:01,293: 0.483160674572
+[rosout][INFO] 2018-06-11 20:59:01,441: 0.484568268061
+[rosout][INFO] 2018-06-11 20:59:01,636: 0.483423173428
+[rosout][INFO] 2018-06-11 20:59:01,801: 0.484895974398
+[rosout][INFO] 2018-06-11 20:59:02,005: 0.488304287195
+[rosout][INFO] 2018-06-11 20:59:02,165: 0.49245339632
+[rosout][INFO] 2018-06-11 20:59:02,320: 0.493012279272
+[rosout][INFO] 2018-06-11 20:59:02,471: 0.494726449251
+[rosout][INFO] 2018-06-11 20:59:02,639: 0.497919768095
+[rosout][INFO] 2018-06-11 20:59:02,814: 0.502559602261
+[rosout][INFO] 2018-06-11 20:59:02,991: 0.504715025425
+[rosout][INFO] 2018-06-11 20:59:03,125: 0.50655579567
+[rosout][INFO] 2018-06-11 20:59:03,310: 0.512376725674
+[rosout][INFO] 2018-06-11 20:59:03,471: 0.520048618317
+[rosout][INFO] 2018-06-11 20:59:03,602: 0.527131021023
+[rosout][INFO] 2018-06-11 20:59:03,752: 0.531963467598
+[rosout][INFO] 2018-06-11 20:59:03,905: 0.538368880749
+[rosout][INFO] 2018-06-11 20:59:04,048: 0.545819282532
+[rosout][INFO] 2018-06-11 20:59:04,226: 0.554513633251
+[rosout][INFO] 2018-06-11 20:59:04,352: 0.563695192337
+[rosout][INFO] 2018-06-11 20:59:04,483: 0.574205636978
+[rosout][INFO] 2018-06-11 20:59:04,610: 0.586973965168
+[rosout][INFO] 2018-06-11 20:59:04,729: 0.599085271358
+[rosout][INFO] 2018-06-11 20:59:04,996: 0.624402284622
+[rosout][INFO] 2018-06-11 20:59:05,147: 0.663875639439
+[rosout][INFO] 2018-06-11 20:59:05,279: 0.718920648098
+[rosout][INFO] 2018-06-11 20:59:05,460: 0
+[rosout][INFO] 2018-06-11 20:59:05,566: 0
+[rosout][INFO] 2018-06-11 20:59:05,693: 0
+[rosout][INFO] 2018-06-11 20:59:05,826: 0
+[rosout][INFO] 2018-06-11 20:59:05,926: 0
+[rosout][INFO] 2018-06-11 20:59:06,047: 0
+[rosout][INFO] 2018-06-11 20:59:06,215: 0
+[rosout][INFO] 2018-06-11 20:59:06,375: 0
+[rosout][INFO] 2018-06-11 20:59:06,481: 0
+[rosout][INFO] 2018-06-11 20:59:06,597: 0
+[rosout][INFO] 2018-06-11 20:59:06,703: 0
+[rosout][INFO] 2018-06-11 20:59:06,798: 0
+[rosout][INFO] 2018-06-11 20:59:06,920: 0
+[rosout][INFO] 2018-06-11 20:59:07,035: 0
+[rosout][INFO] 2018-06-11 20:59:07,166: 0
+[rosout][INFO] 2018-06-11 20:59:07,266: 0
+[rosout][INFO] 2018-06-11 20:59:07,378: 0
+[rosout][INFO] 2018-06-11 20:59:07,492: 0
+[rosout][INFO] 2018-06-11 20:59:07,625: 0
+[rosout][INFO] 2018-06-11 20:59:07,744: 0
+[rosout][INFO] 2018-06-11 20:59:07,859: 0
+[rosout][INFO] 2018-06-11 20:59:08,074: 0
+[rosout][INFO] 2018-06-11 20:59:08,171: 0
+[rosout][INFO] 2018-06-11 20:59:08,388: 0
+[rosout][INFO] 2018-06-11 20:59:08,583: 0
+[rosout][INFO] 2018-06-11 20:59:08,713: 0
+[rosout][INFO] 2018-06-11 20:59:08,819: 0
+[rosout][INFO] 2018-06-11 20:59:08,928: 0
+[rosout][INFO] 2018-06-11 20:59:09,036: 0
+[rosout][INFO] 2018-06-11 20:59:09,172: 0
+[rosout][INFO] 2018-06-11 20:59:09,293: 0
+[rosout][INFO] 2018-06-11 20:59:09,396: 0
+[rosout][INFO] 2018-06-11 20:59:09,494: 0
+[rosout][INFO] 2018-06-11 20:59:09,688: 0
+[rosout][INFO] 2018-06-11 20:59:09,798: 0
+[rosout][INFO] 2018-06-11 20:59:09,889: 0
+[rosout][INFO] 2018-06-11 20:59:10,015: 0
+[rosout][INFO] 2018-06-11 20:59:10,144: 0
+[rosout][INFO] 2018-06-11 20:59:10,253: 0
+[rosout][INFO] 2018-06-11 20:59:10,349: 0
+[rosout][INFO] 2018-06-11 20:59:10,559: 0
+[rosout][INFO] 2018-06-11 20:59:10,709: 0
+[rosout][INFO] 2018-06-11 20:59:10,859: 0
+[rosout][INFO] 2018-06-11 20:59:10,983: 0
+[rosout][INFO] 2018-06-11 20:59:11,100: 0
+[rosout][INFO] 2018-06-11 20:59:11,217: 0
+[rosout][INFO] 2018-06-11 20:59:11,347: 0
+[rosout][INFO] 2018-06-11 20:59:11,459: 0
+[rosout][INFO] 2018-06-11 20:59:11,660: 0
+[rosout][INFO] 2018-06-11 20:59:11,851: 0
+[rosout][INFO] 2018-06-11 20:59:11,953: 0
+[rosout][INFO] 2018-06-11 20:59:12,047: 0
+[rosout][INFO] 2018-06-11 20:59:12,185: 0
+[rosout][INFO] 2018-06-11 20:59:12,298: 0
+[rosout][INFO] 2018-06-11 20:59:12,549: 0
+[rosout][INFO] 2018-06-11 20:59:12,661: 0
+[rosout][INFO] 2018-06-11 20:59:12,769: 0
+[rosout][INFO] 2018-06-11 20:59:12,887: 0
+[rosout][INFO] 2018-06-11 20:59:12,998: 0
+[rosout][INFO] 2018-06-11 20:59:13,172: 0
+[rosout][INFO] 2018-06-11 20:59:13,264: 0
+[rosout][INFO] 2018-06-11 20:59:13,448: 1.9857738018
+[rosout][INFO] 2018-06-11 20:59:13,542: 1.98280704021
+[rosout][INFO] 2018-06-11 20:59:13,633: 1.98206412792
+[rosout][INFO] 2018-06-11 20:59:13,840: 1.98199403286
+[rosout][INFO] 2018-06-11 20:59:13,949: 1.98232805729
+[rosout][INFO] 2018-06-11 20:59:14,046: 1.98187565804
+[rosout][INFO] 2018-06-11 20:59:14,160: 1.97646343708
+[rosout][INFO] 2018-06-11 20:59:14,364: 1.95768356323
+[rosout][INFO] 2018-06-11 20:59:14,488: 1.93292748928
+[rosout][INFO] 2018-06-11 20:59:14,578: 1.9051296711
+[rosout][INFO] 2018-06-11 20:59:14,827: 1.83110463619
+[rosout][INFO] 2018-06-11 20:59:14,916: 1.78492534161
+[rosout][INFO] 2018-06-11 20:59:15,098: 1.69534122944
+[rosout][INFO] 2018-06-11 20:59:15,202: 1.64173936844
+[rosout][INFO] 2018-06-11 20:59:15,375: 1.55468904972
+[rosout][INFO] 2018-06-11 20:59:15,487: 1.50679862499
+[rosout][INFO] 2018-06-11 20:59:15,587: 1.45886921883
+[rosout][INFO] 2018-06-11 20:59:15,685: 1.40626275539
+[rosout][INFO] 2018-06-11 20:59:15,861: 1.32565701008
+[rosout][INFO] 2018-06-11 20:59:16,017: 1.26440250874
+[rosout][INFO] 2018-06-11 20:59:16,147: 1.20355296135
+[rosout][INFO] 2018-06-11 20:59:16,312: 1.1243917942
+[rosout][INFO] 2018-06-11 20:59:16,484: 1.04613482952
+[rosout][INFO] 2018-06-11 20:59:16,632: 0.987526774406
+[rosout][INFO] 2018-06-11 20:59:16,796: 0.911180138588
+[rosout][INFO] 2018-06-11 20:59:16,907: 0.851876080036
+[rosout][INFO] 2018-06-11 20:59:17,016: 0.861950337887
+[rosout][INFO] 2018-06-11 20:59:17,126: 0.870912313461
+[rosout][INFO] 2018-06-11 20:59:17,255: 0.882248997688
+[rosout][INFO] 2018-06-11 20:59:17,390: 0.894081354141
+[rosout][INFO] 2018-06-11 20:59:17,514: 0.903926193714
+[rosout][INFO] 2018-06-11 20:59:17,623: 0.912694215775
+[rosout][INFO] 2018-06-11 20:59:17,740: 0.922767460346
+[rosout][INFO] 2018-06-11 20:59:17,937: 0.936083257198
+[rospy.core][INFO] 2018-06-11 20:59:17,943: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:59:18,007: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 20:59:18,008: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:59:18,009: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][WARNING] 2018-06-11 20:59:18,010: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:52671 (http://0d53e7b9f3a1:41001/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2018-06-11 20:59:18,011: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.impl.masterslave][INFO] 2018-06-11 20:59:18,011: signal-2
+[rospy.core][INFO] 2018-06-11 20:59:18,580: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 21:01:14,889: init_node, name[/wander], pid[3792]
+[xmlrpc][INFO] 2018-06-11 21:01:14,894: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-11 21:01:14,895: Started XML-RPC server [http://0d53e7b9f3a1:45845/]
+[rospy.init][INFO] 2018-06-11 21:01:14,899: ROS Slave URI: [http://0d53e7b9f3a1:45845/]
+[rospy.impl.masterslave][INFO] 2018-06-11 21:01:14,899: _ready: http://0d53e7b9f3a1:45845/
+[xmlrpc][INFO] 2018-06-11 21:01:14,905: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 21:01:14,905: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 21:01:14,905: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[rospy.registration][INFO] 2018-06-11 21:01:14,913: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 21:01:14,926: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 21:01:15,006: registered with master
+[rospy.rosout][INFO] 2018-06-11 21:01:15,007: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 21:01:15,013: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 21:01:15,021: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 21:01:15,048: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 21:01:15,095: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rosout][INFO] 2018-06-11 21:01:15,158: 1.03719258308
+[rospy.internal][INFO] 2018-06-11 21:01:15,209: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rosout][INFO] 2018-06-11 21:01:15,275: 1.03714764118
+[rospy.internal][INFO] 2018-06-11 21:01:15,311: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 21:01:15,380: 1.04162192345
+[rosout][INFO] 2018-06-11 21:01:15,504: 1.05585944653
+[rosout][INFO] 2018-06-11 21:01:15,622: 1.06848907471
+[rosout][INFO] 2018-06-11 21:01:15,748: 1.07638525963
+[rosout][INFO] 2018-06-11 21:01:15,869: 1.07816302776
+[rosout][INFO] 2018-06-11 21:01:15,972: 1.0728187561
+[rosout][INFO] 2018-06-11 21:01:16,095: 1.06332159042
+[rosout][INFO] 2018-06-11 21:01:16,208: 1.05233538151
+[rosout][INFO] 2018-06-11 21:01:16,380: 0
+[rosout][INFO] 2018-06-11 21:01:16,608: 0
+[rosout][INFO] 2018-06-11 21:01:16,734: 0
+[rosout][INFO] 2018-06-11 21:01:16,941: 0
+[rosout][INFO] 2018-06-11 21:01:17,065: 0
+[rosout][INFO] 2018-06-11 21:01:17,186: 0
+[rosout][INFO] 2018-06-11 21:01:17,294: 0
+[rosout][INFO] 2018-06-11 21:01:17,419: 0
+[rosout][INFO] 2018-06-11 21:01:17,581: 0
+[rosout][INFO] 2018-06-11 21:01:17,696: 0
+[rosout][INFO] 2018-06-11 21:01:17,818: 0
+[rosout][INFO] 2018-06-11 21:01:17,937: 0
+[rosout][INFO] 2018-06-11 21:01:18,056: 0
+[rosout][INFO] 2018-06-11 21:01:18,162: 0
+[rosout][INFO] 2018-06-11 21:01:18,331: 0
+[rosout][INFO] 2018-06-11 21:01:18,438: 0
+[rosout][INFO] 2018-06-11 21:01:18,620: 0
+[rosout][INFO] 2018-06-11 21:01:18,728: 0
+[rosout][INFO] 2018-06-11 21:01:18,819: 0
+[rosout][INFO] 2018-06-11 21:01:18,973: 0
+[rosout][INFO] 2018-06-11 21:01:19,078: 0
+[rosout][INFO] 2018-06-11 21:01:19,180: 0
+[rosout][INFO] 2018-06-11 21:01:19,320: 0
+[rosout][INFO] 2018-06-11 21:01:19,429: 0
+[rosout][INFO] 2018-06-11 21:01:19,523: 0
+[rosout][INFO] 2018-06-11 21:01:19,717: 0
+[rosout][INFO] 2018-06-11 21:01:19,897: 0
+[rosout][INFO] 2018-06-11 21:01:20,095: 0
+[rosout][INFO] 2018-06-11 21:01:20,293: 0
+[rosout][INFO] 2018-06-11 21:01:20,447: 0
+[rosout][INFO] 2018-06-11 21:01:20,612: 0
+[rosout][INFO] 2018-06-11 21:01:20,775: 0
+[rosout][INFO] 2018-06-11 21:01:20,935: 0
+[rosout][INFO] 2018-06-11 21:01:21,030: 0
+[rosout][INFO] 2018-06-11 21:01:21,208: 0
+[rosout][INFO] 2018-06-11 21:01:21,370: 0
+[rosout][INFO] 2018-06-11 21:01:21,550: 0
+[rosout][INFO] 2018-06-11 21:01:21,652: 0
+[rosout][INFO] 2018-06-11 21:01:21,764: 0
+[rosout][INFO] 2018-06-11 21:01:21,892: 0
+[rosout][INFO] 2018-06-11 21:01:22,048: 0
+[rosout][INFO] 2018-06-11 21:01:22,161: 0
+[rosout][INFO] 2018-06-11 21:01:22,294: 0
+[rosout][INFO] 2018-06-11 21:01:22,421: 0
+[rosout][INFO] 2018-06-11 21:01:22,550: 0
+[rosout][INFO] 2018-06-11 21:01:22,736: 0
+[rosout][INFO] 2018-06-11 21:01:22,835: 0
+[rosout][INFO] 2018-06-11 21:01:23,037: 0
+[rosout][INFO] 2018-06-11 21:01:23,124: 0
+[rosout][INFO] 2018-06-11 21:01:23,260: 0
+[rosout][INFO] 2018-06-11 21:01:23,364: 0
+[rosout][INFO] 2018-06-11 21:01:23,481: 0
+[rosout][INFO] 2018-06-11 21:01:23,585: 0
+[rosout][INFO] 2018-06-11 21:01:23,771: 0
+[rosout][INFO] 2018-06-11 21:01:23,885: 0
+[rosout][INFO] 2018-06-11 21:01:24,015: 0
+[rosout][INFO] 2018-06-11 21:01:24,149: 0
+[rosout][INFO] 2018-06-11 21:01:24,371: 0
+[rosout][INFO] 2018-06-11 21:01:24,480: 0
+[rosout][INFO] 2018-06-11 21:01:24,599: 0
+[rosout][INFO] 2018-06-11 21:01:24,722: 0
+[rosout][INFO] 2018-06-11 21:01:24,808: 0
+[rosout][INFO] 2018-06-11 21:01:24,951: 0
+[rosout][INFO] 2018-06-11 21:01:25,177: 0
+[rosout][INFO] 2018-06-11 21:01:25,336: 0
+[rosout][INFO] 2018-06-11 21:01:25,563: 0
+[rosout][INFO] 2018-06-11 21:01:25,731: 0
+[rosout][INFO] 2018-06-11 21:01:25,850: 0
+[rosout][INFO] 2018-06-11 21:01:25,967: 0
+[rosout][INFO] 2018-06-11 21:01:26,101: 0
+[rosout][INFO] 2018-06-11 21:01:26,217: 0
+[rosout][INFO] 2018-06-11 21:01:26,327: 0
+[rosout][INFO] 2018-06-11 21:01:26,494: 0
+[rosout][INFO] 2018-06-11 21:01:26,635: 0
+[rospy.core][INFO] 2018-06-11 21:01:26,693: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 21:01:26,728: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 21:01:26,728: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 21:01:26,729: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][INFO] 2018-06-11 21:01:26,730: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.impl.masterslave][INFO] 2018-06-11 21:01:26,731: signal-2
+[rospy.internal][WARNING] 2018-06-11 21:01:26,732: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:36039 (http://0d53e7b9f3a1:44587/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2018-06-11 21:01:27,358: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 21:02:33,740: init_node, name[/wander], pid[3849]
+[xmlrpc][INFO] 2018-06-11 21:02:33,747: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-11 21:02:33,749: Started XML-RPC server [http://0d53e7b9f3a1:42945/]
+[rospy.init][INFO] 2018-06-11 21:02:33,749: ROS Slave URI: [http://0d53e7b9f3a1:42945/]
+[rospy.impl.masterslave][INFO] 2018-06-11 21:02:33,750: _ready: http://0d53e7b9f3a1:42945/
+[xmlrpc][INFO] 2018-06-11 21:02:33,757: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 21:02:33,758: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 21:02:33,758: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[rospy.registration][INFO] 2018-06-11 21:02:33,764: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 21:02:33,782: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 21:02:33,851: registered with master
+[rospy.rosout][INFO] 2018-06-11 21:02:33,851: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 21:02:33,861: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 21:02:33,873: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 21:02:33,891: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 21:02:33,902: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 21:02:33,977: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rospy.internal][INFO] 2018-06-11 21:02:34,084: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 21:02:34,161: 0
+[rosout][INFO] 2018-06-11 21:02:34,282: 0
+[rosout][INFO] 2018-06-11 21:02:34,392: 0
+[rosout][INFO] 2018-06-11 21:02:34,520: 0
+[rosout][INFO] 2018-06-11 21:02:34,628: 0
+[rosout][INFO] 2018-06-11 21:02:34,792: 0
+[rosout][INFO] 2018-06-11 21:02:34,946: 0
+[rosout][INFO] 2018-06-11 21:02:35,078: 0
+[rosout][INFO] 2018-06-11 21:02:35,215: 0
+[rosout][INFO] 2018-06-11 21:02:35,328: 0
+[rosout][INFO] 2018-06-11 21:02:35,441: 0
+[rosout][INFO] 2018-06-11 21:02:35,552: 0
+[rosout][INFO] 2018-06-11 21:02:35,693: 0
+[rosout][INFO] 2018-06-11 21:02:35,805: 0
+[rosout][INFO] 2018-06-11 21:02:35,936: 0
+[rosout][INFO] 2018-06-11 21:02:36,070: 0
+[rosout][INFO] 2018-06-11 21:02:36,207: 0
+[rosout][INFO] 2018-06-11 21:02:36,341: 0
+[rosout][INFO] 2018-06-11 21:02:36,471: 0
+[rosout][INFO] 2018-06-11 21:02:36,591: 0
+[rosout][INFO] 2018-06-11 21:02:36,715: 0
+[rosout][INFO] 2018-06-11 21:02:36,846: 0
+[rosout][INFO] 2018-06-11 21:02:36,966: 0
+[rosout][INFO] 2018-06-11 21:02:37,083: 0
+[rosout][INFO] 2018-06-11 21:02:37,202: 0
+[rosout][INFO] 2018-06-11 21:02:37,313: 0
+[rosout][INFO] 2018-06-11 21:02:37,422: 0
+[rosout][INFO] 2018-06-11 21:02:37,544: 0
+[rosout][INFO] 2018-06-11 21:02:37,661: 0
+[rosout][INFO] 2018-06-11 21:02:37,783: 0
+[rosout][INFO] 2018-06-11 21:02:37,903: 0
+[rosout][INFO] 2018-06-11 21:02:38,019: 0
+[rosout][INFO] 2018-06-11 21:02:38,130: 0
+[rosout][INFO] 2018-06-11 21:02:38,251: 0
+[rosout][INFO] 2018-06-11 21:02:38,376: 0
+[rosout][INFO] 2018-06-11 21:02:38,486: 0
+[rosout][INFO] 2018-06-11 21:02:38,615: 0
+[rosout][INFO] 2018-06-11 21:02:38,720: 0
+[rosout][INFO] 2018-06-11 21:02:38,859: 0
+[rosout][INFO] 2018-06-11 21:02:38,983: 0
+[rosout][INFO] 2018-06-11 21:02:39,107: 0
+[rosout][INFO] 2018-06-11 21:02:39,227: 0
+[rosout][INFO] 2018-06-11 21:02:39,350: 0
+[rosout][INFO] 2018-06-11 21:02:39,465: 0
+[rosout][INFO] 2018-06-11 21:02:39,583: 0
+[rosout][INFO] 2018-06-11 21:02:39,691: 0
+[rosout][INFO] 2018-06-11 21:02:39,804: 0
+[rosout][INFO] 2018-06-11 21:02:39,940: 0
+[rosout][INFO] 2018-06-11 21:02:40,050: 0
+[rosout][INFO] 2018-06-11 21:02:40,167: 0
+[rospy.core][INFO] 2018-06-11 21:02:40,290: signal_shutdown [signal-2]
+[rosout][INFO] 2018-06-11 21:02:40,302: 0
+[rospy.internal][INFO] 2018-06-11 21:02:40,324: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 21:02:40,327: topic[/rosout] removing connection to /rosout
+[rospy.internal][WARNING] 2018-06-11 21:02:40,332: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:52671 (http://0d53e7b9f3a1:41001/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2018-06-11 21:02:40,331: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][INFO] 2018-06-11 21:02:40,333: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.internal][WARNING] 2018-06-11 21:02:40,334: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:36039 (http://0d53e7b9f3a1:44587/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2018-06-11 21:02:40,337: signal-2
+[rospy.core][INFO] 2018-06-11 21:02:40,445: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 21:03:05,274: init_node, name[/wander], pid[3897]
+[xmlrpc][INFO] 2018-06-11 21:03:05,279: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-11 21:03:05,284: Started XML-RPC server [http://0d53e7b9f3a1:43521/]
+[rospy.impl.masterslave][INFO] 2018-06-11 21:03:05,284: _ready: http://0d53e7b9f3a1:43521/
+[rospy.init][INFO] 2018-06-11 21:03:05,285: ROS Slave URI: [http://0d53e7b9f3a1:43521/]
+[xmlrpc][INFO] 2018-06-11 21:03:05,292: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 21:03:05,293: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2018-06-11 21:03:05,293: Registering publisher topic [/cmd_vel_mux/input/teleop] type [geometry_msgs/Twist] with master
+[rospy.registration][INFO] 2018-06-11 21:03:05,303: registering subscriber topic [/scan] type [sensor_msgs/LaserScan] with master
+[rospy.internal][INFO] 2018-06-11 21:03:05,322: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.init][INFO] 2018-06-11 21:03:05,386: registered with master
+[rospy.rosout][INFO] 2018-06-11 21:03:05,386: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 21:03:05,398: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 21:03:05,424: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 21:03:05,438: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 21:03:05,486: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 21:03:05,568: topic[/cmd_vel_mux/input/teleop] adding connection to [/mobile_base_nodelet_manager], count 0
+[rospy.internal][INFO] 2018-06-11 21:03:05,639: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2018-06-11 21:03:05,722: 0
+[rosout][INFO] 2018-06-11 21:03:05,859: 0
+[rosout][INFO] 2018-06-11 21:03:06,003: 0
+[rosout][INFO] 2018-06-11 21:03:06,110: 0
+[rosout][INFO] 2018-06-11 21:03:06,213: 0
+[rosout][INFO] 2018-06-11 21:03:06,333: 0
+[rosout][INFO] 2018-06-11 21:03:06,419: 0
+[rosout][INFO] 2018-06-11 21:03:06,642: 0
+[rosout][INFO] 2018-06-11 21:03:06,782: 0
+[rosout][INFO] 2018-06-11 21:03:06,898: 0
+[rosout][INFO] 2018-06-11 21:03:07,008: 0
+[rosout][INFO] 2018-06-11 21:03:07,109: 0
+[rosout][INFO] 2018-06-11 21:03:07,321: 0
+[rosout][INFO] 2018-06-11 21:03:07,426: 0
+[rosout][INFO] 2018-06-11 21:03:07,642: 0
+[rosout][INFO] 2018-06-11 21:03:07,818: 0
+[rosout][INFO] 2018-06-11 21:03:07,976: 0
+[rosout][INFO] 2018-06-11 21:03:08,116: 0
+[rosout][INFO] 2018-06-11 21:03:08,290: 0
+[rosout][INFO] 2018-06-11 21:03:08,462: 0
+[rosout][INFO] 2018-06-11 21:03:08,591: 0
+[rosout][INFO] 2018-06-11 21:03:08,707: 0
+[rosout][INFO] 2018-06-11 21:03:08,821: 0
+[rosout][INFO] 2018-06-11 21:03:08,955: 0
+[rosout][INFO] 2018-06-11 21:03:09,094: 0
+[rosout][INFO] 2018-06-11 21:03:09,240: 0
+[rosout][INFO] 2018-06-11 21:03:09,390: 0
+[rosout][INFO] 2018-06-11 21:03:09,553: 0
+[rosout][INFO] 2018-06-11 21:03:09,741: 0
+[rosout][INFO] 2018-06-11 21:03:10,119: 0
+[rosout][INFO] 2018-06-11 21:03:10,406: 0
+[rosout][INFO] 2018-06-11 21:03:10,802: 0
+[rosout][INFO] 2018-06-11 21:03:11,044: 0
+[rosout][INFO] 2018-06-11 21:03:11,318: 0
+[rosout][INFO] 2018-06-11 21:03:11,591: 0
+[rosout][INFO] 2018-06-11 21:03:11,881: 0
+[rosout][INFO] 2018-06-11 21:03:12,449: 0
+[rosout][INFO] 2018-06-11 21:03:12,710: 0
+[rosout][INFO] 2018-06-11 21:03:12,949: 0
+[rosout][INFO] 2018-06-11 21:03:13,225: 0
+[rosout][INFO] 2018-06-11 21:03:13,401: 0
+[rosout][INFO] 2018-06-11 21:03:13,666: 0
+[rosout][INFO] 2018-06-11 21:03:13,926: 0
+[rosout][INFO] 2018-06-11 21:03:14,123: 0
+[rosout][INFO] 2018-06-11 21:03:14,308: 0
+[rosout][INFO] 2018-06-11 21:03:14,530: 0
+[rosout][INFO] 2018-06-11 21:03:14,780: 0
+[rosout][INFO] 2018-06-11 21:03:14,980: 0
+[rosout][INFO] 2018-06-11 21:03:15,214: 0
+[rosout][INFO] 2018-06-11 21:03:15,481: 0
+[rosout][INFO] 2018-06-11 21:03:15,825: 0
+[rosout][INFO] 2018-06-11 21:03:16,032: 0
+[rosout][INFO] 2018-06-11 21:03:16,261: 0
+[rosout][INFO] 2018-06-11 21:03:16,499: 0
+[rosout][INFO] 2018-06-11 21:03:16,694: 0
+[rosout][INFO] 2018-06-11 21:03:16,876: 0
+[rosout][INFO] 2018-06-11 21:03:17,044: 0
+[rosout][INFO] 2018-06-11 21:03:17,269: 0
+[rosout][INFO] 2018-06-11 21:03:17,491: 0
+[rosout][INFO] 2018-06-11 21:03:17,709: 0
+[rosout][INFO] 2018-06-11 21:03:17,993: 0
+[rosout][INFO] 2018-06-11 21:03:18,297: 0
+[rosout][INFO] 2018-06-11 21:03:18,553: 0
+[rosout][INFO] 2018-06-11 21:03:18,754: 0
+[rosout][INFO] 2018-06-11 21:03:18,944: 0
+[rosout][INFO] 2018-06-11 21:03:19,150: 0
+[rosout][INFO] 2018-06-11 21:03:19,343: 0
+[rosout][INFO] 2018-06-11 21:03:19,513: 0
+[rosout][INFO] 2018-06-11 21:03:19,710: 0
+[rosout][INFO] 2018-06-11 21:03:19,885: 0
+[rosout][INFO] 2018-06-11 21:03:20,103: 0
+[rosout][INFO] 2018-06-11 21:03:20,345: 3.71076154709
+[rosout][INFO] 2018-06-11 21:03:20,541: 3.71177196503
+[rosout][INFO] 2018-06-11 21:03:20,749: 3.70493960381
+[rosout][INFO] 2018-06-11 21:03:20,956: 3.67598366737
+[rosout][INFO] 2018-06-11 21:03:21,184: 3.62091827393
+[rosout][INFO] 2018-06-11 21:03:21,430: 3.53183579445
+[rosout][INFO] 2018-06-11 21:03:21,683: 3.41734743118
+[rosout][INFO] 2018-06-11 21:03:21,925: 3.30236721039
+[rosout][INFO] 2018-06-11 21:03:22,163: 3.2118370533
+[rosout][INFO] 2018-06-11 21:03:22,409: 3.09034609795
+[rosout][INFO] 2018-06-11 21:03:22,655: 2.97875761986
+[rosout][INFO] 2018-06-11 21:03:22,853: 2.89045166969
+[rosout][INFO] 2018-06-11 21:03:23,131: 2.80312752724
+[rosout][INFO] 2018-06-11 21:03:23,479: 2.70174646378
+[rosout][INFO] 2018-06-11 21:03:23,953: 2.5160741806
+[rosout][INFO] 2018-06-11 21:03:24,370: 2.2468149662
+[rosout][INFO] 2018-06-11 21:03:24,798: 2.07859611511
+[rosout][INFO] 2018-06-11 21:03:25,200: 1.90391457081
+[rosout][INFO] 2018-06-11 21:03:25,451: 1.74988996983
+[rosout][INFO] 2018-06-11 21:03:25,790: 1.59819281101
+[rosout][INFO] 2018-06-11 21:03:26,147: 1.49105298519
+[rosout][INFO] 2018-06-11 21:03:26,384: 1.48149871826
+[rosout][INFO] 2018-06-11 21:03:26,679: 1.47052896023
+[rosout][INFO] 2018-06-11 21:03:26,911: 1.4604023695
+[rosout][INFO] 2018-06-11 21:03:27,131: 1.45059072971
+[rosout][INFO] 2018-06-11 21:03:27,348: 1.43974983692
+[rosout][INFO] 2018-06-11 21:03:27,570: 1.42891025543
+[rosout][INFO] 2018-06-11 21:03:27,785: 1.41809380054
+[rosout][INFO] 2018-06-11 21:03:27,980: 1.40791678429
+[rosout][INFO] 2018-06-11 21:03:28,142: 1.39741671085
+[rosout][INFO] 2018-06-11 21:03:28,358: 0
+[rosout][INFO] 2018-06-11 21:03:28,602: 0
+[rosout][INFO] 2018-06-11 21:03:28,735: 0
+[rosout][INFO] 2018-06-11 21:03:28,956: 0
+[rosout][INFO] 2018-06-11 21:03:29,140: 0
+[rosout][INFO] 2018-06-11 21:03:29,300: 0
+[rosout][INFO] 2018-06-11 21:03:29,455: 0
+[rosout][INFO] 2018-06-11 21:03:29,619: 0
+[rosout][INFO] 2018-06-11 21:03:29,819: 0
+[rosout][INFO] 2018-06-11 21:03:29,981: 0
+[rosout][INFO] 2018-06-11 21:03:30,184: 0
+[rosout][INFO] 2018-06-11 21:03:30,341: 0
+[rosout][INFO] 2018-06-11 21:03:30,500: 0
+[rosout][INFO] 2018-06-11 21:03:30,695: 0
+[rosout][INFO] 2018-06-11 21:03:30,809: 0
+[rosout][INFO] 2018-06-11 21:03:30,974: 0
+[rosout][INFO] 2018-06-11 21:03:31,113: 0
+[rosout][INFO] 2018-06-11 21:03:31,291: 0
+[rosout][INFO] 2018-06-11 21:03:31,451: 0
+[rosout][INFO] 2018-06-11 21:03:31,663: 0
+[rosout][INFO] 2018-06-11 21:03:31,869: 0
+[rosout][INFO] 2018-06-11 21:03:32,039: 0
+[rosout][INFO] 2018-06-11 21:03:32,273: 0
+[rosout][INFO] 2018-06-11 21:03:32,473: 0
+[rosout][INFO] 2018-06-11 21:03:32,710: 0
+[rosout][INFO] 2018-06-11 21:03:32,899: 0
+[rosout][INFO] 2018-06-11 21:03:33,111: 0
+[rosout][INFO] 2018-06-11 21:03:33,330: 0
+[rosout][INFO] 2018-06-11 21:03:33,503: 0
+[rosout][INFO] 2018-06-11 21:03:33,677: 0
+[rosout][INFO] 2018-06-11 21:03:33,872: 0
+[rosout][INFO] 2018-06-11 21:03:34,051: 0
+[rosout][INFO] 2018-06-11 21:03:34,233: 0
+[rosout][INFO] 2018-06-11 21:03:34,423: 0
+[rosout][INFO] 2018-06-11 21:03:34,600: 0
+[rosout][INFO] 2018-06-11 21:03:34,856: 0
+[rosout][INFO] 2018-06-11 21:03:35,106: 0
+[rosout][INFO] 2018-06-11 21:03:35,315: 0
+[rosout][INFO] 2018-06-11 21:03:35,519: 0
+[rosout][INFO] 2018-06-11 21:03:35,754: 0
+[rosout][INFO] 2018-06-11 21:03:36,038: 0
+[rosout][INFO] 2018-06-11 21:03:36,325: 0
+[rosout][INFO] 2018-06-11 21:03:36,646: 0
+[rosout][INFO] 2018-06-11 21:03:36,900: 1.24641668797
+[rosout][INFO] 2018-06-11 21:03:37,115: 1.2373739481
+[rosout][INFO] 2018-06-11 21:03:37,369: 1.23732221127
+[rospy.core][INFO] 2018-06-11 21:03:37,456: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 21:03:37,472: topic[/cmd_vel_mux/input/teleop] removing connection to /mobile_base_nodelet_manager
+[rospy.internal][INFO] 2018-06-11 21:03:37,473: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 21:03:37,473: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.topics][ERROR] 2018-06-11 21:03:37,476: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2018-06-11 21:03:37,480: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:52671 (http://0d53e7b9f3a1:41001/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2018-06-11 21:03:37,481: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.impl.masterslave][INFO] 2018-06-11 21:03:37,482: signal-2
+[rospy.core][INFO] 2018-06-11 21:03:37,619: signal_shutdown [atexit]

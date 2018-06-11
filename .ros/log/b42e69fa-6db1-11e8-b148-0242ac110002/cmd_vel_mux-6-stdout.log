@@ -1,0 +1,3 @@
+[0m[ INFO] [1528747069.382154519]: Loading nodelet /cmd_vel_mux of type yocs_cmd_vel_mux/CmdVelMuxNodelet to manager mobile_base_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1528747069.382216929]: /cmd_vel_mux/output -> /mobile_base/commands/velocity[0m
+[0m[ INFO] [1528747690.522604178, 504.490000000]: Unloading nodelet /cmd_vel_mux from manager mobile_base_nodelet_manager[0m

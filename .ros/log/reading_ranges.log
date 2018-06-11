@@ -1,0 +1,146 @@
+[rospy.client][INFO] 2018-06-11 19:59:41,071: init_node, name[/reading_ranges], pid[1885]
+[xmlrpc][INFO] 2018-06-11 19:59:41,072: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 19:59:41,073: ROS Slave URI: [http://0d53e7b9f3a1:39903/]
+[xmlrpc][INFO] 2018-06-11 19:59:41,073: Started XML-RPC server [http://0d53e7b9f3a1:39903/]
+[rospy.impl.masterslave][INFO] 2018-06-11 19:59:41,073: _ready: http://0d53e7b9f3a1:39903/
+[xmlrpc][INFO] 2018-06-11 19:59:41,073: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 19:59:41,074: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-11 19:59:41,173: registered with master
+[rospy.rosout][INFO] 2018-06-11 19:59:41,174: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 19:59:41,190: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 19:59:41,193: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 19:59:41,200: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 19:59:41,253: topic[/scan] adding connection to [http://0d53e7b9f3a1:43397/], count 0
+[rospy.internal][INFO] 2018-06-11 19:59:41,259: topic[/clock] adding connection to [http://0d53e7b9f3a1:34473/], count 0
+[rospy.internal][INFO] 2018-06-11 19:59:41,445: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-06-11 19:59:44,830: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 19:59:44,842: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 19:59:44,843: topic[/clock] removing connection to http://0d53e7b9f3a1:34473/
+[rospy.internal][INFO] 2018-06-11 19:59:44,843: topic[/scan] removing connection to http://0d53e7b9f3a1:43397/
+[rospy.impl.masterslave][INFO] 2018-06-11 19:59:44,843: signal-2
+[rospy.core][INFO] 2018-06-11 19:59:45,009: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:03:14,573: init_node, name[/reading_ranges], pid[1989]
+[xmlrpc][INFO] 2018-06-11 20:03:14,590: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 20:03:14,594: ROS Slave URI: [http://0d53e7b9f3a1:40677/]
+[xmlrpc][INFO] 2018-06-11 20:03:14,594: Started XML-RPC server [http://0d53e7b9f3a1:40677/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:03:14,595: _ready: http://0d53e7b9f3a1:40677/
+[xmlrpc][INFO] 2018-06-11 20:03:14,602: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:03:14,603: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-11 20:03:14,695: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:03:14,696: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:03:14,721: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:03:14,735: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:03:14,761: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:03:14,789: topic[/clock] adding connection to [http://0d53e7b9f3a1:34473/], count 0
+[rospy.internal][INFO] 2018-06-11 20:03:14,928: topic[/scan] adding connection to [http://0d53e7b9f3a1:43397/], count 0
+[rospy.internal][INFO] 2018-06-11 20:03:14,945: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-06-11 20:04:26,167: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:04:26,183: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:04:26,184: topic[/clock] removing connection to http://0d53e7b9f3a1:34473/
+[rospy.internal][INFO] 2018-06-11 20:04:26,184: topic[/scan] removing connection to http://0d53e7b9f3a1:43397/
+[rospy.impl.masterslave][INFO] 2018-06-11 20:04:26,185: signal-2
+[rospy.core][INFO] 2018-06-11 20:04:26,804: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:04:41,243: init_node, name[/reading_ranges], pid[2018]
+[xmlrpc][INFO] 2018-06-11 20:04:41,254: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-11 20:04:41,261: Started XML-RPC server [http://0d53e7b9f3a1:40407/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:04:41,262: _ready: http://0d53e7b9f3a1:40407/
+[rospy.init][INFO] 2018-06-11 20:04:41,265: ROS Slave URI: [http://0d53e7b9f3a1:40407/]
+[xmlrpc][INFO] 2018-06-11 20:04:41,285: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:04:41,286: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-11 20:04:41,366: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:04:41,366: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:04:41,378: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:04:41,388: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:04:41,414: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:04:41,558: topic[/scan] adding connection to [http://0d53e7b9f3a1:43397/], count 0
+[rospy.internal][INFO] 2018-06-11 20:04:41,567: topic[/clock] adding connection to [http://0d53e7b9f3a1:34473/], count 0
+[rospy.internal][INFO] 2018-06-11 20:04:41,605: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-06-11 20:06:07,986: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:06:08,040: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:06:08,040: topic[/clock] removing connection to http://0d53e7b9f3a1:34473/
+[rospy.internal][INFO] 2018-06-11 20:06:08,041: topic[/scan] removing connection to http://0d53e7b9f3a1:43397/
+[rospy.impl.masterslave][INFO] 2018-06-11 20:06:08,042: signal-2
+[rospy.internal][WARNING] 2018-06-11 20:06:08,047: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:48619 (http://0d53e7b9f3a1:43397/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2018-06-11 20:06:08,617: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:06:50,777: init_node, name[/reading_ranges], pid[2048]
+[xmlrpc][INFO] 2018-06-11 20:06:50,785: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2018-06-11 20:06:50,786: Started XML-RPC server [http://0d53e7b9f3a1:38679/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:06:50,786: _ready: http://0d53e7b9f3a1:38679/
+[rospy.init][INFO] 2018-06-11 20:06:50,786: ROS Slave URI: [http://0d53e7b9f3a1:38679/]
+[rospy.registration][INFO] 2018-06-11 20:06:50,793: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2018-06-11 20:06:50,794: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2018-06-11 20:06:50,887: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:06:50,887: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:06:50,904: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:06:50,910: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:06:50,949: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:06:50,986: topic[/clock] adding connection to [http://0d53e7b9f3a1:34473/], count 0
+[rospy.internal][INFO] 2018-06-11 20:06:51,026: topic[/scan] adding connection to [http://0d53e7b9f3a1:43397/], count 0
+[rospy.internal][INFO] 2018-06-11 20:06:51,138: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2018-06-11 20:08:10,992: Unknown error initiating TCP/IP socket to 0d53e7b9f3a1:48619 (http://0d53e7b9f3a1:43397/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2018-06-11 20:08:10,993: topic[/scan] removing connection to http://0d53e7b9f3a1:43397/
+[rospy.internal][ERROR] 2018-06-11 20:08:11,536: Unable to initiate TCP/IP socket to 0d53e7b9f3a1:33039 (http://0d53e7b9f3a1:34473/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 33039 to [172.17.0.2:50586 on socket 17]] [/reading_ranges].
+
+[rospy.internal][ERROR] 2018-06-11 20:08:12,538: Unable to initiate TCP/IP socket to 0d53e7b9f3a1:33039 (http://0d53e7b9f3a1:34473/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 33039 to [172.17.0.2:50654 on socket 16]] [/reading_ranges].
+
+[rospy.internal][ERROR] 2018-06-11 20:08:14,542: Unable to initiate TCP/IP socket to 0d53e7b9f3a1:33039 (http://0d53e7b9f3a1:34473/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 33039 to [172.17.0.2:50656 on socket 16]] [/reading_ranges].
+
+[rospy.core][INFO] 2018-06-11 20:08:15,838: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:08:15,850: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:08:15,850: topic[/clock] removing connection to http://0d53e7b9f3a1:34473/
+[rospy.impl.masterslave][INFO] 2018-06-11 20:08:15,851: signal-2
+[rospy.core][INFO] 2018-06-11 20:08:15,968: signal_shutdown [atexit]
+[rospy.client][INFO] 2018-06-11 20:09:20,174: init_node, name[/reading_ranges], pid[2918]
+[xmlrpc][INFO] 2018-06-11 20:09:20,190: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2018-06-11 20:09:20,193: ROS Slave URI: [http://0d53e7b9f3a1:38509/]
+[xmlrpc][INFO] 2018-06-11 20:09:20,192: Started XML-RPC server [http://0d53e7b9f3a1:38509/]
+[rospy.impl.masterslave][INFO] 2018-06-11 20:09:20,193: _ready: http://0d53e7b9f3a1:38509/
+[xmlrpc][INFO] 2018-06-11 20:09:20,197: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2018-06-11 20:09:20,200: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2018-06-11 20:09:20,294: registered with master
+[rospy.rosout][INFO] 2018-06-11 20:09:20,294: initializing /rosout core topic
+[rospy.rosout][INFO] 2018-06-11 20:09:20,304: connected to core topic /rosout
+[rospy.simtime][INFO] 2018-06-11 20:09:20,312: initializing /clock core topic
+[rospy.simtime][INFO] 2018-06-11 20:09:20,333: connected to core topic /clock
+[rospy.internal][INFO] 2018-06-11 20:09:20,396: topic[/clock] adding connection to [http://0d53e7b9f3a1:41001/], count 0
+[rospy.internal][INFO] 2018-06-11 20:09:20,405: topic[/scan] adding connection to [http://0d53e7b9f3a1:44587/], count 0
+[rospy.internal][INFO] 2018-06-11 20:09:20,597: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2018-06-11 20:10:33,746: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2018-06-11 20:10:33,798: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2018-06-11 20:10:33,800: topic[/clock] removing connection to http://0d53e7b9f3a1:41001/
+[rospy.internal][INFO] 2018-06-11 20:10:33,810: topic[/scan] removing connection to http://0d53e7b9f3a1:44587/
+[rospy.impl.masterslave][INFO] 2018-06-11 20:10:33,810: signal-2
+[rospy.core][INFO] 2018-06-11 20:10:34,435: signal_shutdown [atexit]

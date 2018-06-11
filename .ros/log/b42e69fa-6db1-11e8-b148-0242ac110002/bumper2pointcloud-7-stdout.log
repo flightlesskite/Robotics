@@ -1,0 +1,4 @@
+[0m[ INFO] [1528747070.337331584]: Loading nodelet /bumper2pointcloud of type kobuki_bumper2pc/Bumper2PcNodelet to manager mobile_base_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1528747070.337405862]: /bumper2pointcloud/core_sensors -> /mobile_base/sensors/core[0m
+[0m[ INFO] [1528747070.337419821]: /bumper2pointcloud/pointcloud -> /mobile_base/sensors/bumper_pointcloud[0m
+[0m[ INFO] [1528747690.490781196, 504.460000000]: Unloading nodelet /bumper2pointcloud from manager mobile_base_nodelet_manager[0m
